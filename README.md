@@ -1,7 +1,7 @@
 # InnateCoder
 InnateCoder: Learning Programmatic Options with Foundation Models
 
-This repository contains the code and data for the paper "InnateCoder: Learning Programmatic Options with Foundation Models" by Rubens O. Moraes, Quazi Sadmine, Hendrik Baier, and Levi Lelis.
+This repository contains the code and data for the paper "InnateCoder: Learning Programmatic Options with Foundation Models" by Rubens O. Moraes, Quazi Sadmine, Hendrik Baier, and Levi Lelis, accepted on IJCAI 2025.
 
 
 ## Overview
