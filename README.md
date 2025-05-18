@@ -99,6 +99,7 @@ You can use the scripts in the `scripts` folder to run various experiments:
 
 For all scripts, you can modify the configuration parameters directly in the files to customize the experiments according to your needs.
 
+
 # MicroRTS
 
 MicroRTS is a research platform for real-time strategy (RTS) games. It is designed to facilitate the development and evaluation of AI algorithms in a competitive gaming environment.
