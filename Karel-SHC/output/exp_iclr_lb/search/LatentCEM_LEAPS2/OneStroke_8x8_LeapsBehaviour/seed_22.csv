@@ -1,0 +1,13 @@
+num_evaluations,best_reward,best_program
+1,0.026041666666666675,DEF run m( IFELSE c( leftIsClear c) i( move turnRight i) ELSE e( IFELSE c( frontIsClear c) i( move i) ELSE e( move e) e) WHILE c( rightIsClear c) w( IFELSE c( frontIsClear c) i( turnRight i) ELSE e( pickMarker e) w) m)
+3,0.038194444444444454,DEF run m( IFELSE c( rightIsClear c) i( pickMarker move i) ELSE e( turnRight e) IF c( noMarkersPresent c) i( turnRight i) move m)
+7,0.0625,DEF run m( IF c( frontIsClear c) i( IFELSE c( noMarkersPresent c) i( move i) ELSE e( move e) i) pickMarker move move m)
+10,0.09722222222222222,DEF run m( IF c( rightIsClear c) i( turnRight i) WHILE c( frontIsClear c) w( turnLeft move w) m)
+16,0.11284722222222221,DEF run m( IFELSE c( frontIsClear c) i( turnLeft WHILE c( noMarkersPresent c) w( move w) i) ELSE e( turnRight e) IF c( frontIsClear c) i( turnRight i) move putMarker pickMarker m)
+24,0.7465277777777781,DEF run m( WHILE c( noMarkersPresent c) w( move turnRight w) pickMarker turnRight m)
+133,0.822916666666667,DEF run m( WHILE c( noMarkersPresent c) w( move turnLeft w) IFELSE c( frontIsClear c) i( move turnLeft i) ELSE e( move move e) m)
+455,0.8263888888888893,DEF run m( REPEAT R=5 r( IFELSE c( frontIsClear c) i( move turnLeft i) ELSE e( move e) WHILE c( noMarkersPresent c) w( move turnLeft w) r) m)
+682,0.8298611111111115,DEF run m( REPEAT R=5 r( IFELSE c( frontIsClear c) i( move turnLeft i) ELSE e( move move e) WHILE c( noMarkersPresent c) w( move turnLeft w) r) m)
+820,0.8506944444444448,DEF run m( WHILE c( noMarkersPresent c) w( IFELSE c( frontIsClear c) i( move i) ELSE e( turnLeft e) w) WHILE c( rightIsClear c) w( turnLeft w) move turnLeft move m)
+2425,0.8524305555555559,DEF run m( REPEAT R=4 r( pickMarker move move WHILE c( noMarkersPresent c) w( move turnLeft w) r) move WHILE c( noMarkersPresent c) w( pickMarker move WHILE c( noMarkersPresent c) w( move turnLeft w) w) m)
+8388,0.8559027777777782,DEF run m( move move move move turnRight move turnRight WHILE c( noMarkersPresent c) w( move turnRight w) WHILE c( frontIsClear c) w( move move w) m)

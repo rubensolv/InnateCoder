@@ -1,0 +1,1 @@
+171461,0.9947916666666667,DEF run m( move REPEAT R=18 r( turnLeft REPEAT R=13 r( IF c( frontIsClear c) i( turnRight i) turnLeft IFELSE c( markersPresent c) i( move i) ELSE e( putMarker turnRight e) r) r) m)

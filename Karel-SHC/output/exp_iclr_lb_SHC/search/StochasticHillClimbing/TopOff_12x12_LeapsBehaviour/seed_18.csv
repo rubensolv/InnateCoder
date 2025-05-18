@@ -1,0 +1,11 @@
+num_evaluations,best_reward,best_program
+0,0.0,DEF run m( WHILE c( frontIsClear c) w( move w) m)
+1193,0.09397321428571428,DEF run m( IF c( frontIsClear c) i( move IFELSE c( leftIsClear c) i( move move i) ELSE e( putMarker move move turnLeft e) turnRight IF c( markersPresent c) i( putMarker turnLeft i) i) turnRight m)
+1215,0.11941964285714285,DEF run m( IF c( frontIsClear c) i( move IFELSE c( frontIsClear c) i( move i) ELSE e( turnRight e) WHILE c( frontIsClear c) w( turnLeft w) IF c( markersPresent c) i( putMarker IF c( leftIsClear c) i( turnLeft i) i) i) turnRight m)
+1217,0.12834821428571427,DEF run m( IF c( frontIsClear c) i( move IFELSE c( noMarkersPresent c) i( move i) ELSE e( turnRight e) WHILE c( frontIsClear c) w( turnLeft w) IF c( markersPresent c) i( putMarker IF c( leftIsClear c) i( turnLeft i) i) i) turnRight m)
+1225,0.2970982142857143,DEF run m( IF c( leftIsClear c) i( move IFELSE c( noMarkersPresent c) i( move i) ELSE e( turnRight e) WHILE c( frontIsClear c) w( move w) IF c( markersPresent c) i( putMarker move i) i) turnRight m)
+1311,0.416889880952381,DEF run m( IF c( frontIsClear c) i( IF c( frontIsClear c) i( move i) IFELSE c( noMarkersPresent c) i( move i) ELSE e( turnRight e) WHILE c( noMarkersPresent c) w( move w) IF c( markersPresent c) i( putMarker i) i) WHILE c( frontIsClear c) w( turnRight move w) m)
+14305,0.459970238095238,DEF run m( WHILE c( frontIsClear c) w( move IF c( markersPresent c) i( putMarker move i) w) putMarker m)
+14333,0.6831845238095237,DEF run m( WHILE c( frontIsClear c) w( move IF c( markersPresent c) i( putMarker move i) w) WHILE c( frontIsClear c) w( IFELSE c( noMarkersPresent c) i( turnLeft i) ELSE e( turnLeft putMarker move pickMarker e) move turnRight w) m)
+14353,0.803720238095238,DEF run m( WHILE c( not c( rightIsClear c) c) w( move IF c( markersPresent c) i( putMarker move i) w) move m)
+14364,1.0,DEF run m( WHILE c( not c( rightIsClear c) c) w( move IF c( markersPresent c) i( putMarker IF c( leftIsClear c) i( WHILE c( not c( leftIsClear c) c) w( turnLeft turnLeft move w) i) i) w) move m)

@@ -1,0 +1,13 @@
+num_evaluations,best_reward,best_program
+1,-1.0,DEF run m( putMarker REPEAT R=15 r( move pickMarker IF c( frontIsClear c) i( IFELSE c( leftIsClear c) i( pickMarker turnLeft move turnLeft i) ELSE e( turnLeft turnRight putMarker turnLeft turnLeft turnLeft e) WHILE c( frontIsClear c) w( move move w) i) r) m)
+46,0.0,DEF run m( turnRight m)
+55,0.027777777777777787,DEF run m( pickMarker turnRight m)
+107,0.35937500000000006,DEF run m( WHILE c( leftIsClear c) w( move pickMarker turnRight move w) REPEAT R=17 r( move r) pickMarker turnLeft WHILE c( rightIsClear c) w( move move w) m)
+138,0.4288194444444445,DEF run m( WHILE c( leftIsClear c) w( move pickMarker turnRight move w) REPEAT R=17 r( move r) pickMarker turnLeft WHILE c( rightIsClear c) w( pickMarker move w) m)
+235,0.5555555555555556,DEF run m( WHILE c( leftIsClear c) w( IF c( frontIsClear c) i( turnLeft i) pickMarker turnRight move w) REPEAT R=17 r( move r) pickMarker turnLeft WHILE c( rightIsClear c) w( pickMarker move w) m)
+1275,0.5902777777777779,DEF run m( REPEAT R=13 r( turnLeft WHILE c( leftIsClear c) w( pickMarker move turnRight move w) REPEAT R=17 r( move move pickMarker move r) r) m)
+1290,0.5989583333333335,DEF run m( REPEAT R=13 r( turnLeft WHILE c( leftIsClear c) w( pickMarker move turnRight move w) REPEAT R=17 r( turnRight move pickMarker move r) r) m)
+1301,0.961805555555556,DEF run m( REPEAT R=13 r( turnLeft WHILE c( markersPresent c) w( pickMarker move turnRight move w) REPEAT R=17 r( turnRight move pickMarker move r) r) m)
+1302,0.9895833333333336,DEF run m( REPEAT R=13 r( turnRight turnLeft move WHILE c( markersPresent c) w( pickMarker move turnRight move w) REPEAT R=17 r( turnRight move pickMarker move r) r) m)
+1325,0.9913194444444446,DEF run m( REPEAT R=13 r( turnRight turnLeft move WHILE c( markersPresent c) w( pickMarker move turnLeft move w) REPEAT R=17 r( turnRight move pickMarker move r) r) m)
+1369,1.0000000000000002,DEF run m( REPEAT R=13 r( turnRight turnLeft move turnLeft REPEAT R=17 r( turnRight move pickMarker move r) r) m)

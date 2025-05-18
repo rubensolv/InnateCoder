@@ -1,0 +1,21 @@
+{
+    "search_method_cls_name": "StochasticHillClimbingLLMDict",
+    "search_method_args": {
+        "env_args": {
+            "env_height": 8,
+            "env_width": 8,
+            "max_calls": 10000,
+            "crashable": true,
+            "leaps_behaviour": false            
+        },
+        "exp_name": "llmTests",
+        "search_method_args": {
+            "k": 250
+        },
+        "max_evaluations": 1e7,
+        "number_executions": 16,
+        "checkpoint_frequency": 1000,
+        "task_cls_name": "StairClimberSparse",
+        "n_proc": 1
+    }
+}

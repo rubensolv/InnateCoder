@@ -1,0 +1,18 @@
+2024-05-20 19:50:17,861: [StochasticHillClimbingLLMDict] New best program: DEF run m( pickMarker m)
+2024-05-20 19:50:17,861: [StochasticHillClimbingLLMDict] New best reward: 0.027777777777777787
+2024-05-20 19:50:17,862: [StochasticHillClimbingLLMDict] Number of evaluations: 1
+2024-05-20 19:50:18,148: [StochasticHillClimbingLLMDict] New best program: DEF run m( WHILE c( frontIsClear c) w( pickMarker move move move w) IF c( frontIsClear c) i( move i) m)
+2024-05-20 19:50:18,149: [StochasticHillClimbingLLMDict] New best reward: 0.03298611111111112
+2024-05-20 19:50:18,149: [StochasticHillClimbingLLMDict] Number of evaluations: 26
+2024-05-20 19:50:18,548: [StochasticHillClimbingLLMDict] New best program: DEF run m( WHILE c( markersPresent c) w( pickMarker move move move w) IF c( frontIsClear c) i( move i) m)
+2024-05-20 19:50:18,549: [StochasticHillClimbingLLMDict] New best reward: 0.038194444444444454
+2024-05-20 19:50:18,549: [StochasticHillClimbingLLMDict] Number of evaluations: 32
+2024-05-20 19:50:18,882: [StochasticHillClimbingLLMDict] New best program: DEF run m( WHILE c( markersPresent c) w( pickMarker move IF c( markersPresent c) i( pickMarker i) w) IF c( frontIsClear c) i( move i) m)
+2024-05-20 19:50:18,882: [StochasticHillClimbingLLMDict] New best reward: 0.05555555555555557
+2024-05-20 19:50:18,882: [StochasticHillClimbingLLMDict] Number of evaluations: 41
+2024-05-20 19:50:19,195: [StochasticHillClimbingLLMDict] New best program: DEF run m( WHILE c( markersPresent c) w( pickMarker move w) IF c( frontIsClear c) i( move i) m)
+2024-05-20 19:50:19,195: [StochasticHillClimbingLLMDict] New best reward: 0.09027777777777779
+2024-05-20 19:50:19,195: [StochasticHillClimbingLLMDict] Number of evaluations: 46
+2024-05-20 19:50:19,667: [StochasticHillClimbingLLMDict] New best program: DEF run m( WHILE c( markersPresent c) w( IF c( markersPresent c) i( pickMarker i) IF c( leftIsClear c) i( turnLeft i) IF c( rightIsClear c) i( turnRight i) move w) IF c( frontIsClear c) i( move i) m)
+2024-05-20 19:50:19,667: [StochasticHillClimbingLLMDict] New best reward: 0.5555555555555556
+2024-05-20 19:50:19,667: [StochasticHillClimbingLLMDict] Number of evaluations: 75

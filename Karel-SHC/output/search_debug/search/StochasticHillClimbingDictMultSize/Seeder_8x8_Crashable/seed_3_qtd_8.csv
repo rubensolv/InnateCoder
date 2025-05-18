@@ -1,0 +1,1 @@
+117853,0.9027777777777781,DEF run m( WHILE c( frontIsClear c) w( WHILE c( frontIsClear c) w( move WHILE c( noMarkersPresent c) w( turnLeft putMarker w) w) turnLeft WHILE c( noMarkersPresent c) w( putMarker move putMarker move turnRight w) w) m)

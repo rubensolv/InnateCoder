@@ -1,0 +1,12 @@
+num_evaluations,best_reward,best_program
+0,0.0,DEF run m( pickMarker m)
+9,0.0625,DEF run m( IFELSE c( noMarkersPresent c) i( WHILE c( markersPresent c) w( turnLeft turnLeft w) IFELSE c( frontIsClear c) i( move move putMarker i) ELSE e( move move pickMarker move e) i) ELSE e( WHILE c( frontIsClear c) w( move w) e) m)
+29,0.1875,DEF run m( REPEAT R=6 r( move r) IF c( frontIsClear c) i( move i) REPEAT R=7 r( WHILE c( rightIsClear c) w( REPEAT R=9 r( move turnLeft move move r) w) r) pickMarker pickMarker m)
+48,0.25,DEF run m( REPEAT R=6 r( move WHILE c( frontIsClear c) w( turnLeft w) r) move REPEAT R=19 r( WHILE c( rightIsClear c) w( REPEAT R=9 r( move turnLeft move move r) w) r) pickMarker m)
+51,0.3125,DEF run m( REPEAT R=6 r( move WHILE c( frontIsClear c) w( turnLeft w) r) move REPEAT R=19 r( WHILE c( rightIsClear c) w( REPEAT R=15 r( move turnLeft move move r) w) r) pickMarker m)
+91,0.375,DEF run m( REPEAT R=11 r( turnLeft move r) move REPEAT R=5 r( WHILE c( rightIsClear c) w( REPEAT R=11 r( move turnLeft move move r) w) r) pickMarker m)
+101,0.4375,DEF run m( REPEAT R=11 r( turnLeft move r) WHILE c( markersPresent c) w( move w) REPEAT R=5 r( WHILE c( rightIsClear c) w( REPEAT R=19 r( move turnLeft move putMarker r) w) r) pickMarker m)
+206,0.5,DEF run m( turnLeft pickMarker REPEAT R=16 r( WHILE c( rightIsClear c) w( REPEAT R=19 r( move turnLeft move r) w) r) move WHILE c( frontIsClear c) w( IF c( frontIsClear c) i( move i) w) m)
+235,0.5625,DEF run m( IF c( markersPresent c) i( turnRight move i) pickMarker REPEAT R=11 r( WHILE c( frontIsClear c) w( REPEAT R=19 r( move turnLeft move r) w) r) move move m)
+372,0.625,DEF run m( WHILE c( rightIsClear c) w( move w) pickMarker REPEAT R=5 r( WHILE c( noMarkersPresent c) w( REPEAT R=19 r( move turnLeft move r) w) r) WHILE c( frontIsClear c) w( move w) m)
+467,1.0,DEF run m( WHILE c( frontIsClear c) w( turnRight w) turnRight pickMarker WHILE c( noMarkersPresent c) w( move turnLeft w) WHILE c( frontIsClear c) w( IFELSE c( frontIsClear c) i( move i) ELSE e( IF c( markersPresent c) i( move i) e) w) m)

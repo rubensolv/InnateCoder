@@ -1,0 +1,3 @@
+num_evaluations,best_reward,best_program
+1,0.0,DEF run m( REPEAT R=0 r( pickMarker r) move WHILE c( frontIsClear c) w( turnLeft w) move m)
+10000000,0.0,DEF run m( REPEAT R=0 r( pickMarker r) move WHILE c( frontIsClear c) w( turnLeft w) move m)

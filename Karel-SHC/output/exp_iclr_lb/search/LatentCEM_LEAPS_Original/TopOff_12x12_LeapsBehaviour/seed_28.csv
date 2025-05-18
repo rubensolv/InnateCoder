@@ -1,0 +1,10 @@
+num_evaluations,best_reward,best_program
+1,0.0,DEF run m( WHILE c( noMarkersPresent c) w( turnLeft w) putMarker move IF c( leftIsClear c) i( move i) m)
+10,0.2788690476190476,DEF run m( WHILE c( frontIsClear c) w( turnRight move w) turnLeft turnRight IFELSE c( markersPresent c) i( putMarker i) ELSE e( pickMarker move turnRight e) m)
+24,0.416889880952381,DEF run m( REPEAT R=5 r( WHILE c( noMarkersPresent c) w( move w) r) turnLeft putMarker m)
+26746,0.5837797619047619,DEF run m( WHILE c( noMarkersPresent c) w( move w) turnRight move turnRight putMarker move WHILE c( noMarkersPresent c) w( move w) turnRight move putMarker m)
+33729,0.7194196428571429,DEF run m( move WHILE c( noMarkersPresent c) w( move w) turnRight move putMarker turnRight move WHILE c( noMarkersPresent c) w( move w) turnRight move putMarker turnRight move WHILE c( noMarkersPresent c) w( move w) turnRight move putMarker m)
+46421,0.813392857142857,DEF run m( WHILE c( noMarkersPresent c) w( move w) putMarker move WHILE c( noMarkersPresent c) w( move w) putMarker move WHILE c( noMarkersPresent c) w( move w) putMarker move WHILE c( noMarkersPresent c) w( move w) putMarker move m)
+150381,0.8541666666666666,DEF run m( turnRight move turnRight move WHILE c( noMarkersPresent c) w( move w) putMarker move WHILE c( noMarkersPresent c) w( move w) putMarker move WHILE c( noMarkersPresent c) w( move w) putMarker move WHILE c( noMarkersPresent c) w( move putMarker move w) putMarker move m)
+195262,0.8645833333333334,DEF run m( turnRight move turnRight WHILE c( noMarkersPresent c) w( move WHILE c( noMarkersPresent c) w( move w) putMarker move w) putMarker move WHILE c( noMarkersPresent c) w( move w) putMarker move WHILE c( noMarkersPresent c) w( move putMarker move w) putMarker move m)
+199419,1.0,DEF run m( turnRight turnRight move REPEAT R=14 r( WHILE c( noMarkersPresent c) w( move w) putMarker move WHILE c( noMarkersPresent c) w( move w) r) move WHILE c( noMarkersPresent c) w( move w) putMarker move WHILE c( noMarkersPresent c) w( move w) putMarker move m)

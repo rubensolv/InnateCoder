@@ -1,0 +1,3 @@
+num_evaluations,best_reward,best_program
+1,0.0,DEF run m( putMarker move m)
+9,1.0,DEF run m( putMarker REPEAT R=12 r( turnLeft move IFELSE c( markersPresent c) i( move i) ELSE e( turnRight move e) r) turnLeft move m)

@@ -1,0 +1,12 @@
+num_evaluations,best_reward,best_program
+1,0.0,DEF run m( turnRight IF c( noMarkersPresent c) i( WHILE c( frontIsClear c) w( IFELSE c( markersPresent c) i( move i) ELSE e( move move turnRight e) w) i) m)
+8,0.09375,DEF run m( turnRight IF c( noMarkersPresent c) i( WHILE c( frontIsClear c) w( IFELSE c( markersPresent c) i( move i) ELSE e( move turnLeft pickMarker turnRight turnLeft turnLeft e) w) i) m)
+889,0.125,DEF run m( turnRight move WHILE c( noMarkersPresent c) w( IFELSE c( frontIsClear c) i( move i) ELSE e( turnLeft e) pickMarker w) pickMarker m)
+905,0.15625,DEF run m( turnRight move WHILE c( noMarkersPresent c) w( IFELSE c( frontIsClear c) i( move i) ELSE e( turnLeft e) move move w) pickMarker m)
+922,0.1875,DEF run m( turnRight move WHILE c( noMarkersPresent c) w( move w) pickMarker m)
+986,0.21875,DEF run m( turnRight turnRight WHILE c( noMarkersPresent c) w( IF c( rightIsClear c) i( move i) turnLeft w) pickMarker WHILE c( noMarkersPresent c) w( move w) pickMarker m)
+996,0.28125,DEF run m( move turnRight move move turnRight WHILE c( noMarkersPresent c) w( IF c( rightIsClear c) i( move i) turnLeft w) pickMarker WHILE c( noMarkersPresent c) w( move w) pickMarker m)
+1016,0.3125,DEF run m( move turnRight move WHILE c( not c( frontIsClear c) c) w( turnLeft pickMarker move w) turnRight WHILE c( noMarkersPresent c) w( IF c( rightIsClear c) i( move i) turnLeft w) pickMarker WHILE c( noMarkersPresent c) w( move w) pickMarker m)
+2674,0.375,DEF run m( IF c( rightIsClear c) i( turnRight move turnRight WHILE c( noMarkersPresent c) w( IFELSE c( frontIsClear c) i( move i) ELSE e( turnLeft move e) w) pickMarker i) IF c( frontIsClear c) i( turnRight i) turnLeft m)
+3117,0.4375,DEF run m( turnRight WHILE c( noMarkersPresent c) w( IF c( rightIsClear c) i( move i) IFELSE c( leftIsClear c) i( turnLeft i) ELSE e( move turnRight e) w) pickMarker m)
+4738,0.46875,DEF run m( IF c( markersPresent c) i( move i) IF c( frontIsClear c) i( turnRight i) WHILE c( noMarkersPresent c) w( IFELSE c( frontIsClear c) i( move i) ELSE e( turnLeft e) w) pickMarker m)

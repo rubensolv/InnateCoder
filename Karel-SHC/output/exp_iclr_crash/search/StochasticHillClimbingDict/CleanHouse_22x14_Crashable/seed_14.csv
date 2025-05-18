@@ -1,0 +1,11 @@
+num_evaluations,best_reward,best_program
+1,0.0,DEF run m( turnRight m)
+73,0.011363636363636364,DEF run m( WHILE c( not c( rightIsClear c) c) w( IF c( frontIsClear c) i( move turnRight turnLeft pickMarker i) WHILE c( not c( rightIsClear c) c) w( move turnLeft turnRight turnLeft w) w) m)
+154,0.0909090909090909,DEF run m( WHILE c( not c( rightIsClear c) c) w( IF c( frontIsClear c) i( move turnRight move pickMarker i) WHILE c( not c( rightIsClear c) c) w( move turnLeft turnRight turnLeft w) w) m)
+251,0.10227272727272727,DEF run m( WHILE c( not c( rightIsClear c) c) w( IF c( frontIsClear c) i( move turnRight move pickMarker i) WHILE c( not c( rightIsClear c) c) w( move pickMarker turnRight turnLeft w) w) m)
+315,0.14204545454545453,DEF run m( WHILE c( not c( rightIsClear c) c) w( IF c( frontIsClear c) i( move turnRight move pickMarker i) WHILE c( not c( rightIsClear c) c) w( WHILE c( noMarkersPresent c) w( move w) pickMarker w) w) m)
+3696,0.18181818181818177,DEF run m( move REPEAT R=12 r( WHILE c( rightIsClear c) w( turnRight WHILE c( markersPresent c) w( turnLeft pickMarker move turnLeft w) move WHILE c( not c( frontIsClear c) c) w( turnLeft w) w) turnLeft r) m)
+3714,0.22159090909090906,DEF run m( move REPEAT R=19 r( WHILE c( rightIsClear c) w( turnRight WHILE c( markersPresent c) w( turnLeft pickMarker move turnLeft w) move WHILE c( not c( frontIsClear c) c) w( turnLeft w) w) turnLeft r) m)
+3757,0.22727272727272718,DEF run m( move REPEAT R=19 r( WHILE c( rightIsClear c) w( turnRight WHILE c( markersPresent c) w( turnLeft pickMarker move turnRight w) move WHILE c( not c( frontIsClear c) c) w( turnLeft w) w) turnLeft r) m)
+3782,0.24999999999999994,DEF run m( move REPEAT R=19 r( WHILE c( rightIsClear c) w( turnRight WHILE c( markersPresent c) w( turnLeft pickMarker w) move WHILE c( not c( frontIsClear c) c) w( turnLeft w) w) turnLeft r) m)
+12564,1.0000000000000002,DEF run m( REPEAT R=8 r( WHILE c( rightIsClear c) w( turnRight WHILE c( markersPresent c) w( turnLeft pickMarker turnRight w) move WHILE c( not c( rightIsClear c) c) w( turnLeft w) w) turnLeft WHILE c( frontIsClear c) w( pickMarker w) r) m)

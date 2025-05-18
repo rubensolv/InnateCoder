@@ -1,0 +1,13 @@
+num_evaluations,best_reward,best_program
+1,0.0,DEF run m( WHILE c( not c( frontIsClear c) c) w( pickMarker turnLeft w) WHILE c( not c( noMarkersPresent c) c) w( move w) move m)
+4,0.027777777777777787,DEF run m( IFELSE c( noMarkersPresent c) i( move turnLeft i) ELSE e( WHILE c( frontIsClear c) w( move w) e) WHILE c( not c( rightIsClear c) c) w( pickMarker move w) m)
+41,0.09027777777777779,DEF run m( IF c( frontIsClear c) i( pickMarker i) WHILE c( markersPresent c) w( turnLeft w) WHILE c( leftIsClear c) w( move pickMarker w) m)
+189,0.16666666666666666,DEF run m( IF c( frontIsClear c) i( turnRight i) WHILE c( rightIsClear c) w( IFELSE c( markersPresent c) i( pickMarker i) ELSE e( move e) w) m)
+848,0.1944444444444445,DEF run m( REPEAT R=3 r( turnRight pickMarker move r) WHILE c( leftIsClear c) w( pickMarker move w) m)
+870,0.22916666666666674,DEF run m( REPEAT R=3 r( turnRight pickMarker move WHILE c( markersPresent c) w( pickMarker move w) r) m)
+963,0.5555555555555556,DEF run m( REPEAT R=7 r( turnRight pickMarker move WHILE c( markersPresent c) w( pickMarker move w) r) m)
+1002,0.6666666666666666,DEF run m( REPEAT R=9 r( turnRight move WHILE c( markersPresent c) w( pickMarker move w) r) m)
+1198,0.791666666666667,DEF run m( REPEAT R=9 r( turnRight move WHILE c( markersPresent c) w( pickMarker move w) WHILE c( markersPresent c) w( pickMarker move w) REPEAT R=9 r( pickMarker move r) r) m)
+1441,0.8958333333333337,DEF run m( REPEAT R=9 r( turnRight move WHILE c( markersPresent c) w( pickMarker move REPEAT R=9 r( move pickMarker r) w) REPEAT R=9 r( move pickMarker r) r) REPEAT R=9 r( move pickMarker r) m)
+1736,0.9201388888888891,DEF run m( REPEAT R=9 r( turnRight move WHILE c( markersPresent c) w( REPEAT R=9 r( pickMarker move r) w) REPEAT R=9 r( pickMarker move r) REPEAT R=9 r( pickMarker move r) REPEAT R=9 r( pickMarker move r) r) m)
+2022,1.0000000000000002,DEF run m( REPEAT R=9 r( turnRight move REPEAT R=9 r( turnRight move REPEAT R=9 r( pickMarker move r) r) REPEAT R=9 r( turnRight move REPEAT R=9 r( pickMarker move r) r) r) m)

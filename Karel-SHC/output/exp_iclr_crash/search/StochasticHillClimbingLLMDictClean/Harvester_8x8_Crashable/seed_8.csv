@@ -1,0 +1,12 @@
+num_evaluations,best_reward,best_program
+1,0.0,DEF run m( WHILE c( frontIsClear c) w( move w) m)
+9,0.027777777777777787,DEF run m( WHILE c( leftIsClear c) w( pickMarker pickMarker move move w) move m)
+38,0.08506944444444445,DEF run m( WHILE c( leftIsClear c) w( pickMarker IFELSE c( rightIsClear c) i( turnRight i) ELSE e( turnLeft e) move move w) move m)
+49,0.10069444444444448,DEF run m( WHILE c( leftIsClear c) w( pickMarker IFELSE c( leftIsClear c) i( turnLeft i) ELSE e( turnRight e) move move w) move m)
+52,0.11111111111111115,DEF run m( WHILE c( leftIsClear c) w( pickMarker IFELSE c( leftIsClear c) i( turnLeft i) ELSE e( turnRight e) move w) move m)
+133,0.25694444444444453,DEF run m( WHILE c( leftIsClear c) w( pickMarker IFELSE c( leftIsClear c) i( turnLeft i) ELSE e( turnRight e) WHILE c( noMarkersPresent c) w( move w) w) move m)
+246,0.8888888888888892,DEF run m( WHILE c( leftIsClear c) w( pickMarker IFELSE c( leftIsClear c) i( turnLeft i) ELSE e( turnRight e) WHILE c( noMarkersPresent c) w( IFELSE c( frontIsClear c) i( move i) ELSE e( turnLeft e) w) w) move m)
+2636,0.8923611111111113,DEF run m( WHILE c( leftIsClear c) w( IF c( rightIsClear c) i( turnRight i) IF c( markersPresent c) i( turnLeft i) move turnLeft IFELSE c( markersPresent c) i( pickMarker i) ELSE e( move e) w) m)
+8465,0.9097222222222225,DEF run m( WHILE c( leftIsClear c) w( turnLeft IFELSE c( markersPresent c) i( pickMarker i) ELSE e( turnRight e) REPEAT R=4 r( IF c( markersPresent c) i( pickMarker i) IFELSE c( frontIsClear c) i( move i) ELSE e( turnLeft e) r) w) m)
+8471,0.9652777777777779,DEF run m( WHILE c( leftIsClear c) w( turnLeft IFELSE c( markersPresent c) i( pickMarker i) ELSE e( move e) REPEAT R=4 r( IF c( markersPresent c) i( pickMarker i) IFELSE c( frontIsClear c) i( move i) ELSE e( turnLeft e) r) w) m)
+15589,1.0000000000000002,DEF run m( turnLeft move move pickMarker WHILE c( leftIsClear c) w( IF c( rightIsClear c) i( turnRight i) move turnLeft IFELSE c( markersPresent c) i( pickMarker i) ELSE e( move turnLeft move IF c( markersPresent c) i( pickMarker i) e) w) m)

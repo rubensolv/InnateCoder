@@ -1,0 +1,10 @@
+num_evaluations,best_reward,best_program
+1,0.0,DEF run m( IF c( frontIsClear c) i( WHILE c( frontIsClear c) w( WHILE c( frontIsClear c) w( turnRight turnRight w) w) i) WHILE c( noMarkersPresent c) w( turnLeft turnRight move WHILE c( frontIsClear c) w( pickMarker IFELSE c( frontIsClear c) i( move move pickMarker i) ELSE e( move e) REPEAT R=0 r( move move turnLeft move r) WHILE c( frontIsClear c) w( putMarker turnRight move turnLeft w) w) w) m)
+22,0.027777777777777787,DEF run m( move WHILE c( leftIsClear c) w( pickMarker w) WHILE c( frontIsClear c) w( move move move move w) turnRight m)
+97,0.09027777777777779,DEF run m( WHILE c( not c( rightIsClear c) c) w( pickMarker move w) m)
+140,0.4079861111111111,DEF run m( WHILE c( not c( rightIsClear c) c) w( pickMarker REPEAT R=3 r( WHILE c( markersPresent c) w( pickMarker w) IFELSE c( frontIsClear c) i( move i) ELSE e( turnLeft e) r) w) m)
+181,0.5555555555555556,DEF run m( WHILE c( not c( rightIsClear c) c) w( pickMarker REPEAT R=13 r( WHILE c( markersPresent c) w( pickMarker w) IFELSE c( frontIsClear c) i( move i) ELSE e( turnLeft e) r) w) m)
+724,0.6666666666666666,DEF run m( IF c( leftIsClear c) i( turnLeft WHILE c( frontIsClear c) w( move IF c( markersPresent c) i( pickMarker i) IF c( leftIsClear c) i( turnLeft i) IF c( rightIsClear c) i( turnRight i) w) i) pickMarker m)
+1096,0.947916666666667,DEF run m( WHILE c( markersPresent c) w( WHILE c( frontIsClear c) w( IFELSE c( markersPresent c) i( pickMarker i) ELSE e( move e) IFELSE c( frontIsClear c) i( move i) ELSE e( turnRight turnLeft e) turnLeft w) turnLeft move w) m)
+4159,0.9947916666666669,DEF run m( IF c( leftIsClear c) i( turnLeft WHILE c( frontIsClear c) w( move IF c( markersPresent c) i( turnRight pickMarker i) IF c( leftIsClear c) i( turnLeft i) IF c( rightIsClear c) i( turnRight i) w) i) pickMarker m)
+6364,1.0000000000000002,DEF run m( pickMarker REPEAT R=13 r( turnLeft WHILE c( frontIsClear c) w( move IF c( markersPresent c) i( turnRight pickMarker i) IF c( leftIsClear c) i( turnLeft i) IF c( rightIsClear c) i( turnRight i) w) r) m)

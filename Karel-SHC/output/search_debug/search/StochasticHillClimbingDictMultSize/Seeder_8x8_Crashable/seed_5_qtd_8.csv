@@ -1,0 +1,1 @@
+62344,0.9270833333333336,DEF run m( REPEAT R=4 r( turnLeft r) turnRight WHILE c( rightIsClear c) w( WHILE c( not c( frontIsClear c) c) w( turnRight w) move WHILE c( noMarkersPresent c) w( turnRight putMarker turnRight turnLeft w) w) m)

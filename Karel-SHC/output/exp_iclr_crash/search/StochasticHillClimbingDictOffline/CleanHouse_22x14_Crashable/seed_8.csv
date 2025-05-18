@@ -1,0 +1,12 @@
+num_evaluations,best_reward,best_program
+1,0.0,DEF run m( WHILE c( frontIsClear c) w( move w) m)
+9,0.011363636363636364,DEF run m( WHILE c( frontIsClear c) w( WHILE c( frontIsClear c) w( move pickMarker w) move w) m)
+41,0.0909090909090909,DEF run m( WHILE c( frontIsClear c) w( WHILE c( frontIsClear c) w( move turnRight move pickMarker w) move w) m)
+493,0.09659090909090907,DEF run m( REPEAT R=6 r( IF c( frontIsClear c) i( move turnRight i) IF c( markersPresent c) i( pickMarker REPEAT R=7 r( move r) i) r) m)
+500,0.11363636363636362,DEF run m( REPEAT R=6 r( IF c( frontIsClear c) i( move turnRight i) IF c( markersPresent c) i( pickMarker REPEAT R=7 r( turnRight r) i) r) m)
+2551,0.11363636363636366,DEF run m( move turnRight move REPEAT R=13 r( IFELSE c( markersPresent c) i( pickMarker turnLeft move move turnRight i) ELSE e( turnLeft move move turnRight e) r) turnLeft move turnLeft move m)
+2581,0.1193181818181818,DEF run m( move turnRight move REPEAT R=13 r( IFELSE c( markersPresent c) i( pickMarker turnLeft turnRight move turnRight i) ELSE e( turnLeft move move turnRight e) r) turnLeft move turnLeft move m)
+2683,0.12499999999999997,DEF run m( move turnRight move REPEAT R=13 r( IFELSE c( markersPresent c) i( pickMarker turnLeft turnRight move turnRight i) ELSE e( turnLeft move move move turnRight e) r) turnLeft move turnLeft move m)
+2707,0.14204545454545453,DEF run m( move turnRight move REPEAT R=13 r( IFELSE c( markersPresent c) i( pickMarker turnLeft turnRight move turnRight i) ELSE e( turnLeft move turnRight e) r) turnLeft move turnLeft move m)
+5683,0.994318181818182,DEF run m( move REPEAT R=13 r( turnRight r) REPEAT R=18 r( WHILE c( noMarkersPresent c) w( turnRight WHILE c( frontIsClear c) w( move turnLeft w) w) pickMarker r) WHILE c( noMarkersPresent c) w( move turnLeft w) REPEAT R=8 r( move r) m)
+38375,1.0000000000000002,DEF run m( REPEAT R=19 r( WHILE c( rightIsClear c) w( turnRight WHILE c( markersPresent c) w( pickMarker w) move WHILE c( not c( rightIsClear c) c) w( turnLeft w) w) turnLeft r) pickMarker m)

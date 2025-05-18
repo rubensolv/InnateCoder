@@ -1,0 +1,12 @@
+2024-03-18 15:30:15,569: [StochasticHillClimbingDict] New best program: DEF run m( pickMarker m)
+2024-03-18 15:30:15,570: [StochasticHillClimbingDict] New best reward: 0.0
+2024-03-18 15:30:15,570: [StochasticHillClimbingDict] Number of evaluations: 1
+2024-03-18 15:30:16,971: [StochasticHillClimbingDict] New best program: DEF run m( WHILE c( rightIsClear c) w( IFELSE c( rightIsClear c) i( move pickMarker move turnRight move move i) ELSE e( turnRight pickMarker e) pickMarker w) m)
+2024-03-18 15:30:16,971: [StochasticHillClimbingDict] New best reward: 0.0625
+2024-03-18 15:30:16,971: [StochasticHillClimbingDict] Number of evaluations: 7
+2024-03-18 15:30:19,471: [StochasticHillClimbingDict] New best program: DEF run m( WHILE c( rightIsClear c) w( turnRight WHILE c( frontIsClear c) w( move pickMarker w) pickMarker w) m)
+2024-03-18 15:30:19,471: [StochasticHillClimbingDict] New best reward: 0.09375
+2024-03-18 15:30:19,471: [StochasticHillClimbingDict] Number of evaluations: 65
+2024-03-18 15:30:22,438: [StochasticHillClimbingDict] New best program: DEF run m( WHILE c( rightIsClear c) w( turnRight WHILE c( markersPresent c) w( move w) turnRight WHILE c( noMarkersPresent c) w( IF c( rightIsClear c) i( move i) turnLeft w) pickMarker pickMarker w) m)
+2024-03-18 15:30:22,438: [StochasticHillClimbingDict] New best reward: 0.21875
+2024-03-18 15:30:22,438: [StochasticHillClimbingDict] Number of evaluations: 157

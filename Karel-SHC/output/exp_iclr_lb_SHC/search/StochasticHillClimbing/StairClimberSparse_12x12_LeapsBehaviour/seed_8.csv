@@ -1,0 +1,3 @@
+num_evaluations,best_reward,best_program
+0,0.0,DEF run m( WHILE c( frontIsClear c) w( move w) m)
+112,1.0,DEF run m( WHILE c( noMarkersPresent c) w( WHILE c( noMarkersPresent c) w( pickMarker move turnRight w) WHILE c( not c( markersPresent c) c) w( turnLeft move move turnRight w) IF c( frontIsClear c) i( putMarker i) WHILE c( leftIsClear c) w( move w) w) m)

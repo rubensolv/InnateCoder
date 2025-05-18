@@ -1,0 +1,4 @@
+168987,0.9427083333333336,DEF run m( move putMarker turnLeft REPEAT R=19 r( REPEAT R=18 r( turnLeft IF c( frontIsClear c) i( move i) WHILE c( noMarkersPresent c) w( putMarker turnLeft turnLeft w) r) turnRight r) m)
+169003,0.9531250000000002,DEF run m( WHILE c( frontIsClear c) w( putMarker move w) putMarker turnLeft REPEAT R=19 r( REPEAT R=18 r( turnLeft IF c( frontIsClear c) i( move i) WHILE c( noMarkersPresent c) w( putMarker turnLeft turnLeft w) r) turnRight r) m)
+169072,0.9704861111111112,DEF run m( WHILE c( frontIsClear c) w( putMarker move w) turnRight turnLeft REPEAT R=19 r( REPEAT R=18 r( turnLeft IF c( frontIsClear c) i( move i) WHILE c( noMarkersPresent c) w( putMarker turnLeft turnLeft w) r) turnRight r) m)
+182283,0.9791666666666667,DEF run m( REPEAT R=19 r( WHILE c( frontIsClear c) w( move w) turnLeft WHILE c( frontIsClear c) w( turnLeft IF c( frontIsClear c) i( move i) WHILE c( noMarkersPresent c) w( putMarker turnLeft turnLeft w) w) r) m)

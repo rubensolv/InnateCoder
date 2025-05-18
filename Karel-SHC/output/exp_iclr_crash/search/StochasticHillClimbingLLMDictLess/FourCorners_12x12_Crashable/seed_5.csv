@@ -1,0 +1,5 @@
+num_evaluations,best_reward,best_program
+1,0.0,DEF run m( WHILE c( frontIsClear c) w( move w) m)
+54,0.25,DEF run m( REPEAT R=2 r( IF c( markersPresent c) i( pickMarker i) WHILE c( frontIsClear c) w( move IF c( markersPresent c) i( pickMarker i) w) IF c( noMarkersPresent c) i( putMarker i) r) m)
+1684,0.75,DEF run m( move REPEAT R=3 r( IF c( markersPresent c) i( turnLeft i) WHILE c( frontIsClear c) w( move IF c( markersPresent c) i( pickMarker i) w) IF c( noMarkersPresent c) i( putMarker i) r) m)
+1711,1.0,DEF run m( move REPEAT R=4 r( IF c( markersPresent c) i( turnLeft i) WHILE c( frontIsClear c) w( move IF c( markersPresent c) i( pickMarker i) w) IF c( noMarkersPresent c) i( putMarker i) r) m)

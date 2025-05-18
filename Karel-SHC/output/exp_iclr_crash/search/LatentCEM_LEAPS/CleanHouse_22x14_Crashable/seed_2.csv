@@ -1,0 +1,13 @@
+num_evaluations,best_reward,best_program
+1,0.0,DEF run m( REPEAT R=2 r( WHILE c( markersPresent c) w( REPEAT R=11 r( move r) w) r) m)
+17,0.011363636363636364,DEF run m( WHILE c( rightIsClear c) w( move pickMarker w) move REPEAT R=3 r( IF c( frontIsClear c) i( pickMarker move i) r) m)
+102,0.017045454545454544,DEF run m( WHILE c( noMarkersPresent c) w( REPEAT R=1 r( move r) w) IF c( frontIsClear c) i( turnRight move i) pickMarker m)
+324,0.07386363636363637,DEF run m( WHILE c( noMarkersPresent c) w( IFELSE c( frontIsClear c) i( move i) ELSE e( turnRight e) w) IF c( frontIsClear c) i( pickMarker move i) m)
+473,0.0909090909090909,DEF run m( WHILE c( noMarkersPresent c) w( IFELSE c( frontIsClear c) i( move i) ELSE e( turnRight e) w) pickMarker move m)
+1039,0.10227272727272727,DEF run m( WHILE c( noMarkersPresent c) w( move turnRight w) IF c( markersPresent c) i( pickMarker move i) IF c( leftIsClear c) i( pickMarker move i) m)
+3968,0.11363636363636362,DEF run m( move turnRight IF c( noMarkersPresent c) i( move i) IFELSE c( frontIsClear c) i( pickMarker i) ELSE e( pickMarker e) IF c( leftIsClear c) i( move i) pickMarker m)
+4045,0.14204545454545453,DEF run m( move turnRight move WHILE c( leftIsClear c) w( IFELSE c( markersPresent c) i( pickMarker i) ELSE e( move e) w) m)
+150270,0.15340909090909088,DEF run m( IFELSE c( frontIsClear c) i( move turnRight i) ELSE e( turnLeft turnLeft e) WHILE c( frontIsClear c) w( IFELSE c( noMarkersPresent c) i( move i) ELSE e( pickMarker e) w) WHILE c( noMarkersPresent c) w( move w) m)
+3585559,0.1761363636363636,DEF run m( WHILE c( frontIsClear c) w( move turnRight IFELSE c( markersPresent c) i( pickMarker i) ELSE e( IF c( leftIsClear c) i( turnLeft i) e) w) m)
+3656363,0.994318181818182,DEF run m( WHILE c( frontIsClear c) w( move turnRight WHILE c( not c( frontIsClear c) c) w( IFELSE c( noMarkersPresent c) i( turnLeft i) ELSE e( pickMarker turnLeft e) w) w) m)
+5834416,1.0000000000000002,DEF run m( WHILE c( noMarkersPresent c) w( move turnRight WHILE c( markersPresent c) w( pickMarker w) WHILE c( not c( frontIsClear c) c) w( turnLeft w) w) m)

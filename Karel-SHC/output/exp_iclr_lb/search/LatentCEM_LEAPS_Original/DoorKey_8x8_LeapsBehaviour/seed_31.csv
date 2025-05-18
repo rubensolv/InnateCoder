@@ -1,0 +1,12 @@
+num_evaluations,best_reward,best_program
+1,0.0,DEF run m( REPEAT R=0 r( pickMarker r) move WHILE c( frontIsClear c) w( turnLeft w) move m)
+9,0.0625,DEF run m( WHILE c( frontIsClear c) w( move pickMarker w) IF c( rightIsClear c) i( move i) REPEAT R=1 r( move r) m)
+75,0.09375,DEF run m( WHILE c( frontIsClear c) w( move pickMarker w) turnRight move IF c( frontIsClear c) i( pickMarker i) m)
+988,0.15625,DEF run m( WHILE c( frontIsClear c) w( move pickMarker w) turnRight move IF c( frontIsClear c) i( WHILE c( frontIsClear c) w( move pickMarker w) i) m)
+1010,0.1875,DEF run m( WHILE c( frontIsClear c) w( move pickMarker w) turnRight move IF c( frontIsClear c) i( WHILE c( frontIsClear c) w( pickMarker move w) i) m)
+2438,0.28125,DEF run m( WHILE c( frontIsClear c) w( pickMarker move w) WHILE c( rightIsClear c) w( turnRight pickMarker WHILE c( frontIsClear c) w( move pickMarker w) w) m)
+4678,0.3125,DEF run m( WHILE c( frontIsClear c) w( move pickMarker move w) WHILE c( rightIsClear c) w( pickMarker turnRight WHILE c( frontIsClear c) w( pickMarker move w) w) m)
+4902,0.375,DEF run m( WHILE c( frontIsClear c) w( move pickMarker move w) WHILE c( noMarkersPresent c) w( pickMarker turnRight WHILE c( frontIsClear c) w( pickMarker move w) w) m)
+4961,0.40625,DEF run m( WHILE c( frontIsClear c) w( move pickMarker move w) WHILE c( noMarkersPresent c) w( pickMarker turnRight WHILE c( frontIsClear c) w( pickMarker move w) w) WHILE c( rightIsClear c) w( pickMarker move w) WHILE c( frontIsClear c) w( pickMarker move w) m)
+15972,0.46875,DEF run m( WHILE c( not c( frontIsClear c) c) w( pickMarker move move w) WHILE c( noMarkersPresent c) w( pickMarker turnRight WHILE c( frontIsClear c) w( move pickMarker w) w) WHILE c( noMarkersPresent c) w( pickMarker w) m)
+35543,0.5,DEF run m( WHILE c( noMarkersPresent c) w( pickMarker turnRight WHILE c( frontIsClear c) w( pickMarker move w) IF c( noMarkersPresent c) i( pickMarker move i) WHILE c( frontIsClear c) w( pickMarker move w) pickMarker turnRight move w) pickMarker m)

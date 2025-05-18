@@ -1,0 +1,6 @@
+num_evaluations,best_reward,best_program
+1,0.0,DEF run m( REPEAT R=12 r( IFELSE c( rightIsClear c) i( turnRight i) ELSE e( move e) r) move move turnRight move m)
+54230,0.015625,DEF run m( move move WHILE c( frontIsClear c) w( pickMarker w) putMarker move pickMarker m)
+54348,0.234375,DEF run m( move move WHILE c( frontIsClear c) w( move w) putMarker turnRight m)
+62571,0.25,DEF run m( move WHILE c( frontIsClear c) w( move w) putMarker m)
+5216958,1.0,DEF run m( WHILE c( frontIsClear c) w( WHILE c( frontIsClear c) w( move w) putMarker turnRight turnRight turnRight w) m)

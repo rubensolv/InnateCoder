@@ -1,0 +1,11 @@
+num_evaluations,best_reward,best_program
+0,0.0,DEF run m( WHILE c( frontIsClear c) w( IF c( rightIsClear c) i( putMarker i) w) IF c( leftIsClear c) i( move IF c( frontIsClear c) i( move WHILE c( markersPresent c) w( turnRight turnLeft w) IF c( rightIsClear c) i( turnLeft i) turnRight i) i) m)
+26,0.011363636363636364,DEF run m( move pickMarker m)
+58,0.017045454545454544,DEF run m( WHILE c( frontIsClear c) w( move pickMarker WHILE c( frontIsClear c) w( move move REPEAT R=15 r( turnRight r) move w) WHILE c( not c( frontIsClear c) c) w( move w) w) pickMarker m)
+61,0.03977272727272727,DEF run m( WHILE c( frontIsClear c) w( move pickMarker WHILE c( frontIsClear c) w( move move REPEAT R=15 r( turnRight r) move w) pickMarker turnRight w) pickMarker m)
+91,0.10227272727272727,DEF run m( WHILE c( frontIsClear c) w( move pickMarker WHILE c( not c( frontIsClear c) c) w( move move REPEAT R=11 r( turnRight r) move w) pickMarker turnRight w) WHILE c( leftIsClear c) w( turnLeft turnLeft w) m)
+110,0.15340909090909088,DEF run m( WHILE c( noMarkersPresent c) w( move pickMarker WHILE c( not c( frontIsClear c) c) w( move turnRight w) pickMarker turnRight w) WHILE c( rightIsClear c) w( IF c( frontIsClear c) i( move i) turnLeft w) m)
+159,0.17045454545454541,DEF run m( WHILE c( noMarkersPresent c) w( move turnLeft WHILE c( not c( frontIsClear c) c) w( WHILE c( frontIsClear c) w( move turnRight w) turnRight w) pickMarker turnRight w) move move turnLeft m)
+163,0.22727272727272724,DEF run m( WHILE c( noMarkersPresent c) w( move turnLeft WHILE c( not c( frontIsClear c) c) w( WHILE c( not c( markersPresent c) c) w( move turnRight w) turnRight w) pickMarker turnRight w) move move turnLeft m)
+165,0.9829545454545455,DEF run m( WHILE c( noMarkersPresent c) w( turnLeft turnLeft WHILE c( not c( frontIsClear c) c) w( WHILE c( not c( markersPresent c) c) w( move turnRight w) turnRight w) pickMarker turnRight w) move move turnLeft m)
+191,1.0000000000000002,DEF run m( WHILE c( noMarkersPresent c) w( turnLeft turnRight move pickMarker turnRight w) move m)

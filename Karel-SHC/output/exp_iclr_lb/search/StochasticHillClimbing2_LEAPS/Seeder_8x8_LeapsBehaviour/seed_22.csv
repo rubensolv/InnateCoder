@@ -1,0 +1,13 @@
+num_evaluations,best_reward,best_program
+1,0.0,DEF run m( IFELSE c( leftIsClear c) i( move turnRight i) ELSE e( IFELSE c( frontIsClear c) i( move i) ELSE e( move e) e) WHILE c( rightIsClear c) w( IFELSE c( frontIsClear c) i( turnRight i) ELSE e( pickMarker e) w) m)
+47,0.027777777777777787,DEF run m( IFELSE c( leftIsClear c) i( move turnRight i) ELSE e( IFELSE c( frontIsClear c) i( move i) ELSE e( move e) e) IFELSE c( rightIsClear c) i( putMarker turnRight i) ELSE e( WHILE c( frontIsClear c) w( pickMarker w) e) m)
+367,0.05555555555555557,DEF run m( IFELSE c( frontIsClear c) i( putMarker move turnLeft i) ELSE e( move move e) putMarker m)
+456,0.11284722222222221,DEF run m( IFELSE c( frontIsClear c) i( putMarker move turnLeft i) ELSE e( move move e) WHILE c( frontIsClear c) w( move putMarker w) m)
+478,0.12673611111111113,DEF run m( IFELSE c( frontIsClear c) i( turnLeft move putMarker i) ELSE e( move move e) WHILE c( frontIsClear c) w( move putMarker w) m)
+1788,0.12847222222222224,DEF run m( IF c( noMarkersPresent c) i( putMarker move i) move turnLeft WHILE c( noMarkersPresent c) w( putMarker move w) m)
+1862,0.140625,DEF run m( IF c( noMarkersPresent c) i( putMarker move i) turnLeft WHILE c( noMarkersPresent c) w( putMarker move w) m)
+6760,0.17534722222222224,DEF run m( WHILE c( frontIsClear c) w( putMarker move w) turnLeft WHILE c( leftIsClear c) w( putMarker move w) m)
+25834,0.6527777777777779,DEF run m( WHILE c( noMarkersPresent c) w( turnLeft putMarker move WHILE c( markersPresent c) w( move w) w) m)
+141948,0.7586805555555557,DEF run m( WHILE c( noMarkersPresent c) w( IFELSE c( frontIsClear c) i( putMarker move i) ELSE e( move e) WHILE c( markersPresent c) w( move turnLeft w) w) m)
+142090,0.7621527777777781,DEF run m( WHILE c( noMarkersPresent c) w( putMarker move WHILE c( markersPresent c) w( move turnRight w) w) m)
+1004144,0.9236111111111114,DEF run m( IF c( noMarkersPresent c) i( turnLeft i) WHILE c( rightIsClear c) w( IFELSE c( frontIsClear c) i( move i) ELSE e( turnRight e) WHILE c( noMarkersPresent c) w( putMarker turnRight w) w) m)

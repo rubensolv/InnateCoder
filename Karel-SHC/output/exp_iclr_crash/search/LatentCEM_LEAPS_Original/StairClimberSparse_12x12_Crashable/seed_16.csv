@@ -1,0 +1,6 @@
+num_evaluations,best_reward,best_program
+1,0.0,DEF run m( WHILE c( noMarkersPresent c) w( pickMarker w) turnRight WHILE c( not c( rightIsClear c) c) w( move w) m)
+68509,0.4375,DEF run m( turnRight turnRight turnRight move turnRight move m)
+78518,0.6875,DEF run m( turnRight turnRight turnRight move turnRight move turnRight turnRight turnRight move turnRight move turnRight move turnRight move m)
+84727,0.75,DEF run m( turnRight turnRight turnRight move turnRight move turnRight turnRight turnRight move turnRight move turnRight turnRight turnRight move turnRight move turnRight turnRight move m)
+10000000,0.75,DEF run m( turnRight turnRight turnRight move turnRight move turnRight turnRight turnRight move turnRight move turnRight turnRight turnRight move turnRight move turnRight turnRight move m)

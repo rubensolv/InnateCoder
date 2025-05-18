@@ -1,0 +1,1 @@
+119799,1.0000000000000002,DEF run m( WHILE c( frontIsClear c) w( REPEAT R=12 r( move turnRight turnRight WHILE c( noMarkersPresent c) w( putMarker w) IF c( leftIsClear c) i( move turnLeft i) r) IF c( rightIsClear c) i( turnRight turnLeft turnRight move turnLeft i) w) m)

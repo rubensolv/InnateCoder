@@ -1,0 +1,9 @@
+num_evaluations,best_reward,best_program
+1,0.0625,DEF run m( move m)
+13,0.125,DEF run m( WHILE c( frontIsClear c) w( move w) REPEAT R=5 r( turnRight move move move r) IF c( not c( rightIsClear c) c) i( putMarker turnLeft i) m)
+14,0.25,DEF run m( IF c( not c( rightIsClear c) c) i( turnRight i) REPEAT R=5 r( turnRight move move move r) IF c( not c( rightIsClear c) c) i( putMarker turnLeft i) m)
+15,0.3125,DEF run m( IF c( not c( rightIsClear c) c) i( turnRight i) REPEAT R=19 r( turnRight move move move r) IF c( not c( rightIsClear c) c) i( putMarker turnLeft i) m)
+452,0.5625,DEF run m( REPEAT R=19 r( REPEAT R=19 r( turnLeft putMarker move move r) WHILE c( rightIsClear c) w( turnRight move move w) WHILE c( frontIsClear c) w( putMarker w) r) m)
+456,0.75,DEF run m( REPEAT R=19 r( REPEAT R=19 r( turnLeft putMarker move move r) WHILE c( rightIsClear c) w( turnRight move move w) WHILE c( noMarkersPresent c) w( putMarker w) r) m)
+462,0.8125,DEF run m( REPEAT R=19 r( REPEAT R=19 r( turnLeft putMarker move r) WHILE c( rightIsClear c) w( turnRight move move w) WHILE c( noMarkersPresent c) w( putMarker w) r) m)
+472,1.0,DEF run m( REPEAT R=19 r( REPEAT R=19 r( turnLeft putMarker move r) IF c( not c( frontIsClear c) c) i( IF c( frontIsClear c) i( move move turnRight pickMarker i) i) WHILE c( noMarkersPresent c) w( putMarker w) r) m)

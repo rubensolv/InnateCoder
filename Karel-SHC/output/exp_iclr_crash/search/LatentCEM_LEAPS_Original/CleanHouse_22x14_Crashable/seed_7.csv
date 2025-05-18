@@ -1,0 +1,11 @@
+num_evaluations,best_reward,best_program
+1,-1.0,DEF run m( IFELSE c( frontIsClear c) i( putMarker move i) ELSE e( turnRight move e) IF c( noMarkersPresent c) i( turnRight i) REPEAT R=3 r( turnLeft r) m)
+2,0.0,DEF run m( IFELSE c( frontIsClear c) i( turnRight turnLeft move i) ELSE e( turnRight e) m)
+9,0.011363636363636364,DEF run m( move pickMarker move WHILE c( markersPresent c) w( move w) IFELSE c( frontIsClear c) i( turnRight i) ELSE e( turnLeft e) WHILE c( not c( frontIsClear c) c) w( move w) m)
+160,0.0909090909090909,DEF run m( move turnRight move WHILE c( frontIsClear c) w( pickMarker w) IF c( not c( rightIsClear c) c) i( turnRight i) m)
+2566,0.10227272727272727,DEF run m( move turnRight move pickMarker turnRight turnRight turnRight turnRight move turnRight turnRight WHILE c( frontIsClear c) w( pickMarker turnRight w) turnRight turnRight pickMarker turnRight m)
+7803,0.10795454545454543,DEF run m( move turnRight move pickMarker move move move move pickMarker move move WHILE c( frontIsClear c) w( move move w) move move move pickMarker WHILE c( frontIsClear c) w( move move w) WHILE c( frontIsClear c) w( move move w) m)
+9766,0.14204545454545453,DEF run m( move turnRight move pickMarker move WHILE c( noMarkersPresent c) w( move w) pickMarker m)
+58164,0.1477272727272727,DEF run m( move turnRight move pickMarker move WHILE c( noMarkersPresent c) w( move w) pickMarker move move move move turnLeft move move turnLeft move move pickMarker move turnLeft move move move move move m)
+66041,0.15340909090909088,DEF run m( move turnRight WHILE c( noMarkersPresent c) w( move WHILE c( noMarkersPresent c) w( move w) pickMarker w) pickMarker move pickMarker WHILE c( noMarkersPresent c) w( move w) pickMarker move pickMarker move pickMarker move pickMarker move pickMarker move pickMarker m)
+10000000,0.15340909090909088,DEF run m( move turnRight WHILE c( noMarkersPresent c) w( move WHILE c( noMarkersPresent c) w( move w) pickMarker w) pickMarker move pickMarker WHILE c( noMarkersPresent c) w( move w) pickMarker move pickMarker move pickMarker move pickMarker move pickMarker move pickMarker m)

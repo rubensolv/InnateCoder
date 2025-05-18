@@ -1,0 +1,12 @@
+num_evaluations,best_reward,best_program
+1,0.0,DEF run m( WHILE c( frontIsClear c) w( move w) m)
+100,0.011363636363636364,DEF run m( move pickMarker m)
+196,0.017045454545454544,DEF run m( move REPEAT R=8 r( IF c( markersPresent c) i( pickMarker i) IF c( frontIsClear c) i( move i) r) m)
+299,0.10227272727272727,DEF run m( move REPEAT R=8 r( IF c( markersPresent c) i( pickMarker i) IF c( frontIsClear c) i( IFELSE c( rightIsClear c) i( turnRight move turnRight i) ELSE e( turnLeft move turnLeft e) i) r) m)
+368,0.1477272727272727,DEF run m( move REPEAT R=8 r( IF c( markersPresent c) i( pickMarker i) IF c( frontIsClear c) i( IFELSE c( rightIsClear c) i( turnRight move turnLeft i) ELSE e( turnLeft move turnLeft e) i) r) m)
+411,0.15340909090909088,DEF run m( move REPEAT R=16 r( IF c( markersPresent c) i( pickMarker i) IF c( frontIsClear c) i( IFELSE c( rightIsClear c) i( turnRight move turnLeft i) ELSE e( turnLeft move turnLeft e) i) r) m)
+422,0.18749999999999994,DEF run m( move REPEAT R=16 r( IF c( markersPresent c) i( pickMarker i) IF c( frontIsClear c) i( IFELSE c( rightIsClear c) i( turnRight move turnLeft i) ELSE e( move move turnLeft e) i) r) m)
+8004,0.22159090909090903,DEF run m( REPEAT R=8 r( move IF c( markersPresent c) i( pickMarker i) turnRight IF c( markersPresent c) i( pickMarker i) move turnLeft REPEAT R=8 r( IF c( markersPresent c) i( pickMarker i) IF c( frontIsClear c) i( move i) r) turnRight r) m)
+8041,0.2556818181818181,DEF run m( REPEAT R=11 r( move IF c( markersPresent c) i( pickMarker i) turnRight IF c( markersPresent c) i( pickMarker i) move turnLeft REPEAT R=8 r( IF c( markersPresent c) i( pickMarker i) IF c( frontIsClear c) i( move i) r) turnRight r) m)
+8061,0.2670454545454545,DEF run m( REPEAT R=11 r( move IF c( markersPresent c) i( pickMarker i) turnRight IF c( markersPresent c) i( pickMarker i) move turnLeft REPEAT R=11 r( IF c( markersPresent c) i( pickMarker i) IF c( frontIsClear c) i( move i) r) turnRight r) m)
+16099,1.0000000000000002,DEF run m( move turnRight REPEAT R=16 r( REPEAT R=17 r( IFELSE c( frontIsClear c) i( move i) ELSE e( turnLeft e) IF c( markersPresent c) i( pickMarker i) IF c( rightIsClear c) i( turnRight i) r) r) m)

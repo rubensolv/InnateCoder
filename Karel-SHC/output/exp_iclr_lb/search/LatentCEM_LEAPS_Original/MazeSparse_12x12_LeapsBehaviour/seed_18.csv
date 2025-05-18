@@ -1,0 +1,10 @@
+num_evaluations,best_reward,best_program
+1,0.0625,DEF run m( REPEAT R=5 r( WHILE c( frontIsClear c) w( move w) r) IFELSE c( markersPresent c) i( turnRight move i) ELSE e( move e) m)
+4461,0.125,DEF run m( REPEAT R=7 r( turnLeft move IF c( frontIsClear c) i( turnRight i) r) m)
+9482,0.1875,DEF run m( REPEAT R=7 r( move IFELSE c( frontIsClear c) i( turnRight turnLeft i) ELSE e( turnRight e) IF c( frontIsClear c) i( move turnRight i) r) m)
+9833,0.375,DEF run m( REPEAT R=7 r( REPEAT R=7 r( IFELSE c( noMarkersPresent c) i( turnRight move turnLeft i) ELSE e( turnRight e) turnRight r) r) m)
+10067,0.5625,DEF run m( REPEAT R=7 r( REPEAT R=7 r( IFELSE c( noMarkersPresent c) i( turnRight move REPEAT R=2 r( turnRight r) i) ELSE e( turnLeft turnRight e) REPEAT R=7 r( turnRight r) move r) turnRight r) m)
+10368,0.625,DEF run m( REPEAT R=7 r( REPEAT R=7 r( move IFELSE c( noMarkersPresent c) i( turnRight REPEAT R=2 r( turnRight r) move i) ELSE e( turnLeft turnRight e) REPEAT R=7 r( turnRight r) move turnRight r) r) m)
+10403,0.875,DEF run m( REPEAT R=7 r( REPEAT R=7 r( move IFELSE c( noMarkersPresent c) i( turnRight move i) ELSE e( turnLeft turnRight e) REPEAT R=7 r( turnRight move r) r) turnRight r) m)
+10525,0.9375,DEF run m( REPEAT R=7 r( REPEAT R=7 r( move IFELSE c( noMarkersPresent c) i( turnRight turnLeft i) ELSE e( move turnRight e) REPEAT R=7 r( turnRight move r) r) turnRight r) m)
+10533,1.0,DEF run m( REPEAT R=7 r( REPEAT R=7 r( move IFELSE c( noMarkersPresent c) i( turnRight turnLeft i) ELSE e( move turnRight e) REPEAT R=7 r( turnRight move r) turnRight r) r) m)

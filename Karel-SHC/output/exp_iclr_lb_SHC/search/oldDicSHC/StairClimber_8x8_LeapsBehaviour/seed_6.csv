@@ -1,0 +1,6 @@
+num_evaluations,best_reward,best_program
+1,0.0,DEF run m( move m)
+4,0.3838541666666666,DEF run m( move turnRight move m)
+75,0.7677083333333332,DEF run m( move turnRight REPEAT R=2 r( move turnRight r) m)
+83,0.9104166666666668,DEF run m( move turnRight REPEAT R=8 r( move turnRight r) m)
+126,1.0,DEF run m( move turnRight REPEAT R=8 r( IF c( frontIsClear c) i( REPEAT R=19 r( turnRight move r) move i) turnRight r) m)

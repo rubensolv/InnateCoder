@@ -1,0 +1,4 @@
+num_evaluations,best_reward,best_program
+1,0.0625,DEF run m( WHILE c( not c( frontIsClear c) c) w( pickMarker turnLeft w) WHILE c( not c( noMarkersPresent c) c) w( move w) move m)
+355433,0.125,DEF run m( move move move move turnLeft move move move move move move turnLeft move move move move m)
+10000000,0.125,DEF run m( move move move move turnLeft move move move move move move turnLeft move move move move m)

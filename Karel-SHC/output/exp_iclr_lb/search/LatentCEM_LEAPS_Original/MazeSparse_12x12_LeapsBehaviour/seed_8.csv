@@ -1,0 +1,8 @@
+num_evaluations,best_reward,best_program
+1,0.0625,DEF run m( WHILE c( frontIsClear c) w( move w) turnLeft turnLeft pickMarker move turnRight m)
+10761,0.125,DEF run m( move move move move move move move move move move move turnRight move move move move pickMarker move move move move move move move move m)
+10884,0.25,DEF run m( move move move move move move move move move move move move turnRight move move move move pickMarker move move move move move move move move move turnRight move move move move move move move move m)
+13199,0.3125,DEF run m( move move move move move turnRight move move move turnRight move move turnRight move move turnRight move move turnRight move pickMarker move move turnRight move move turnRight move move turnRight move move turnRight move move m)
+17139,0.375,DEF run m( move move move move move move move turnRight move move turnRight move move pickMarker turnRight move move pickMarker move turnRight move pickMarker move turnRight move pickMarker move pickMarker move turnRight move move pickMarker move turnRight move pickMarker move pickMarker move turnRight move m)
+33337,0.4375,DEF run m( move move turnLeft move move turnLeft move move turnLeft move move turnLeft move move move move move move move turnLeft move move move move move move move turnLeft move move move move move move move turnLeft move move move move move move m)
+723762,1.0,DEF run m( move move move move move turnRight move REPEAT R=17 r( REPEAT R=17 r( turnRight move r) move r) move turnRight m)

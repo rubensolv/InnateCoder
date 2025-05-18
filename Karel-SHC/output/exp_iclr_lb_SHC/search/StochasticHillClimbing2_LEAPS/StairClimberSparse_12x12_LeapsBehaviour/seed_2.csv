@@ -1,0 +1,3 @@
+num_evaluations,best_reward,best_program
+1,0.0,DEF run m( REPEAT R=2 r( WHILE c( markersPresent c) w( REPEAT R=11 r( move r) w) r) m)
+129,1.0,DEF run m( WHILE c( noMarkersPresent c) w( move turnRight w) WHILE c( frontIsClear c) w( pickMarker turnLeft w) m)

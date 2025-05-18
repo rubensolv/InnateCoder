@@ -1,0 +1,11 @@
+num_evaluations,best_reward,best_program
+1,0.027777777777777787,DEF run m( IFELSE c( leftIsClear c) i( move turnRight i) ELSE e( IFELSE c( frontIsClear c) i( move i) ELSE e( move e) e) WHILE c( rightIsClear c) w( IFELSE c( frontIsClear c) i( turnRight i) ELSE e( pickMarker e) w) m)
+57,0.11111111111111115,DEF run m( WHILE c( leftIsClear c) w( turnLeft move IF c( markersPresent c) i( pickMarker i) w) m)
+110,0.16666666666666666,DEF run m( REPEAT R=7 r( pickMarker turnRight r) WHILE c( rightIsClear c) w( pickMarker move w) m)
+765,0.22743055555555564,DEF run m( move move pickMarker move turnLeft pickMarker move move pickMarker move move pickMarker move turnLeft move pickMarker move pickMarker move pickMarker move pickMarker move pickMarker m)
+857,0.23611111111111116,DEF run m( move move move turnLeft move pickMarker turnLeft move pickMarker pickMarker move pickMarker move pickMarker move pickMarker move pickMarker move pickMarker turnLeft move pickMarker move pickMarker turnLeft move pickMarker move pickMarker m)
+887,0.373263888888889,DEF run m( IF c( frontIsClear c) i( move i) move turnLeft move pickMarker move move pickMarker move pickMarker move turnLeft pickMarker move pickMarker move pickMarker move pickMarker move pickMarker turnLeft move pickMarker move pickMarker move pickMarker turnLeft move pickMarker move pickMarker move pickMarker m)
+2410,0.6666666666666666,DEF run m( WHILE c( leftIsClear c) w( turnLeft pickMarker REPEAT R=5 r( WHILE c( frontIsClear c) w( pickMarker move w) r) w) m)
+3655,0.8038194444444446,DEF run m( REPEAT R=13 r( REPEAT R=3 r( pickMarker move pickMarker turnRight move r) r) move pickMarker REPEAT R=3 r( move pickMarker r) move move turnRight pickMarker move m)
+8407,0.9444444444444446,DEF run m( REPEAT R=18 r( pickMarker move REPEAT R=4 r( pickMarker move r) pickMarker move turnLeft move r) pickMarker move turnLeft move pickMarker move m)
+8606,1.0000000000000002,DEF run m( REPEAT R=18 r( pickMarker move REPEAT R=4 r( pickMarker turnLeft move pickMarker r) REPEAT R=18 r( pickMarker move pickMarker pickMarker r) REPEAT R=18 r( pickMarker move pickMarker turnLeft move r) r) pickMarker move pickMarker pickMarker pickMarker pickMarker move turnLeft move pickMarker m)

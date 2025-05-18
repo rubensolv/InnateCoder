@@ -1,0 +1,13 @@
+num_evaluations,best_reward,best_program
+1,0.026041666666666675,DEF run m( IFELSE c( noMarkersPresent c) i( putMarker move i) ELSE e( turnRight e) IF c( leftIsClear c) i( turnRight i) m)
+2,0.1232638888888889,DEF run m( REPEAT R=5 r( move pickMarker r) move turnLeft IFELSE c( frontIsClear c) i( move i) ELSE e( move e) move m)
+14,0.14583333333333334,DEF run m( IFELSE c( frontIsClear c) i( move turnLeft i) ELSE e( move e) WHILE c( noMarkersPresent c) w( move w) IF c( leftIsClear c) i( pickMarker i) m)
+79,0.7447916666666669,DEF run m( IFELSE c( frontIsClear c) i( turnLeft move i) ELSE e( putMarker e) WHILE c( noMarkersPresent c) w( move turnLeft w) m)
+245,0.7465277777777781,DEF run m( WHILE c( frontIsClear c) w( turnLeft move w) WHILE c( rightIsClear c) w( turnRight WHILE c( frontIsClear c) w( move w) w) m)
+271,0.822916666666667,DEF run m( WHILE c( noMarkersPresent c) w( move turnLeft w) move turnLeft move WHILE c( leftIsClear c) w( turnLeft w) m)
+424,0.8420138888888893,DEF run m( WHILE c( rightIsClear c) w( move turnLeft w) move turnLeft WHILE c( noMarkersPresent c) w( turnRight move w) m)
+676,0.8559027777777781,DEF run m( move move move move WHILE c( noMarkersPresent c) w( move turnLeft w) move turnLeft m)
+2355,0.8663194444444449,DEF run m( WHILE c( noMarkersPresent c) w( turnLeft IF c( frontIsClear c) i( move i) WHILE c( frontIsClear c) w( turnLeft w) w) m)
+5716,0.8802083333333339,DEF run m( WHILE c( noMarkersPresent c) w( WHILE c( rightIsClear c) w( move turnLeft w) IF c( frontIsClear c) i( move i) move pickMarker w) m)
+62982,0.8923611111111115,DEF run m( WHILE c( noMarkersPresent c) w( WHILE c( frontIsClear c) w( move w) turnLeft move turnRight w) move m)
+143088,0.9027777777777782,DEF run m( WHILE c( noMarkersPresent c) w( IF c( frontIsClear c) i( turnRight i) move turnRight move w) m)

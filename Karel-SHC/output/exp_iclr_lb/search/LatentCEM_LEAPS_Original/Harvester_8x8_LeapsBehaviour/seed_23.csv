@@ -1,0 +1,11 @@
+num_evaluations,best_reward,best_program
+1,-1.0,DEF run m( IF c( markersPresent c) i( turnRight i) turnLeft putMarker WHILE c( markersPresent c) w( move w) turnLeft m)
+3,0.0,DEF run m( WHILE c( leftIsClear c) w( move w) IFELSE c( rightIsClear c) i( move i) ELSE e( turnRight e) IF c( rightIsClear c) i( move i) m)
+9,0.027777777777777787,DEF run m( IF c( frontIsClear c) i( pickMarker turnRight i) WHILE c( leftIsClear c) w( move w) IFELSE c( frontIsClear c) i( move i) ELSE e( turnRight e) move turnRight m)
+43,0.16666666666666666,DEF run m( IF c( frontIsClear c) i( pickMarker i) turnRight WHILE c( not c( frontIsClear c) c) w( move w) WHILE c( leftIsClear c) w( pickMarker move w) m)
+196,0.1944444444444445,DEF run m( IF c( frontIsClear c) i( pickMarker move i) WHILE c( not c( rightIsClear c) c) w( turnRight w) move WHILE c( leftIsClear c) w( pickMarker move w) m)
+370,0.5555555555555556,DEF run m( IFELSE c( rightIsClear c) i( pickMarker move i) ELSE e( WHILE c( not c( frontIsClear c) c) w( turnRight w) e) WHILE c( markersPresent c) w( turnRight move WHILE c( frontIsClear c) w( pickMarker move w) w) m)
+595,0.638888888888889,DEF run m( WHILE c( not c( rightIsClear c) c) w( turnRight move w) WHILE c( not c( noMarkersPresent c) c) w( pickMarker turnRight move move w) WHILE c( rightIsClear c) w( pickMarker move w) m)
+1544,0.8246527777777779,DEF run m( IFELSE c( rightIsClear c) i( turnRight move pickMarker move i) ELSE e( WHILE c( leftIsClear c) w( pickMarker pickMarker turnRight move pickMarker move turnRight pickMarker move w) e) WHILE c( frontIsClear c) w( pickMarker turnRight move pickMarker move w) m)
+2306,0.824652777777778,DEF run m( IF c( rightIsClear c) i( pickMarker move i) WHILE c( leftIsClear c) w( pickMarker move w) WHILE c( frontIsClear c) w( pickMarker move move move turnRight move pickMarker move w) m)
+2388,1.0000000000000002,DEF run m( IF c( rightIsClear c) i( pickMarker move i) WHILE c( leftIsClear c) w( pickMarker pickMarker move IF c( frontIsClear c) i( pickMarker move i) pickMarker move turnRight move pickMarker move w) m)

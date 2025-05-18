@@ -1,0 +1,12 @@
+num_evaluations,best_reward,best_program
+1,0.0,DEF run m( WHILE c( frontIsClear c) w( move w) m)
+8,0.027777777777777787,DEF run m( pickMarker turnLeft move m)
+22,0.05555555555555557,DEF run m( pickMarker move move pickMarker move m)
+31,0.09201388888888888,DEF run m( REPEAT R=8 r( IFELSE c( frontIsClear c) i( turnRight pickMarker turnLeft i) ELSE e( turnLeft e) IF c( not c( rightIsClear c) c) i( move i) turnRight IF c( frontIsClear c) i( move i) r) move move pickMarker move m)
+34,0.11979166666666667,DEF run m( REPEAT R=8 r( IFELSE c( rightIsClear c) i( turnRight pickMarker turnLeft i) ELSE e( turnLeft e) IF c( not c( rightIsClear c) c) i( move i) turnRight IF c( frontIsClear c) i( move i) r) move move pickMarker move m)
+41,0.18576388888888892,DEF run m( REPEAT R=8 r( IFELSE c( rightIsClear c) i( turnRight pickMarker turnLeft i) ELSE e( turnLeft e) IF c( frontIsClear c) i( move i) turnRight IF c( frontIsClear c) i( move i) r) move move pickMarker move m)
+63,0.5555555555555556,DEF run m( WHILE c( markersPresent c) w( pickMarker turnRight move move w) IFELSE c( rightIsClear c) i( turnLeft i) ELSE e( move e) m)
+543,0.8697916666666671,DEF run m( REPEAT R=12 r( WHILE c( rightIsClear c) w( move WHILE c( markersPresent c) w( turnLeft pickMarker move turnRight move turnLeft w) move REPEAT R=14 r( turnLeft turnLeft r) w) turnLeft r) m)
+595,0.8888888888888892,DEF run m( REPEAT R=12 r( WHILE c( rightIsClear c) w( move WHILE c( markersPresent c) w( turnLeft pickMarker move turnRight move turnLeft w) move REPEAT R=14 r( turnLeft turnLeft r) w) move r) m)
+684,0.9947916666666669,DEF run m( REPEAT R=12 r( WHILE c( rightIsClear c) w( move WHILE c( markersPresent c) w( turnLeft pickMarker move turnRight move turnLeft w) turnLeft REPEAT R=12 r( pickMarker move turnLeft move r) w) move r) m)
+694,1.0000000000000002,DEF run m( REPEAT R=12 r( WHILE c( rightIsClear c) w( move WHILE c( markersPresent c) w( turnLeft pickMarker move turnRight move turnLeft w) turnLeft REPEAT R=12 r( pickMarker move turnLeft turnRight r) w) move r) m)

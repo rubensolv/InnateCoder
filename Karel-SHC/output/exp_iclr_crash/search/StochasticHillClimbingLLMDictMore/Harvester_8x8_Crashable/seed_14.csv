@@ -1,0 +1,12 @@
+num_evaluations,best_reward,best_program
+1,0.0,DEF run m( turnRight m)
+2,0.06250000000000001,DEF run m( WHILE c( frontIsClear c) w( move IF c( markersPresent c) i( pickMarker i) w) m)
+17,0.11111111111111115,DEF run m( WHILE c( frontIsClear c) w( move turnLeft IF c( markersPresent c) i( pickMarker i) w) m)
+163,0.28472222222222227,DEF run m( REPEAT R=4 r( IF c( leftIsClear c) i( turnLeft i) IF c( rightIsClear c) i( turnRight i) IF c( frontIsClear c) i( move i) WHILE c( frontIsClear c) w( move IF c( markersPresent c) i( pickMarker i) w) turnLeft move r) m)
+177,0.5069444444444445,DEF run m( REPEAT R=4 r( IF c( leftIsClear c) i( turnLeft i) IF c( rightIsClear c) i( turnRight i) IF c( frontIsClear c) i( pickMarker i) WHILE c( frontIsClear c) w( move IF c( markersPresent c) i( pickMarker i) w) turnLeft move r) m)
+247,0.5555555555555556,DEF run m( REPEAT R=12 r( IF c( leftIsClear c) i( turnLeft i) IF c( rightIsClear c) i( turnRight i) IF c( frontIsClear c) i( pickMarker i) WHILE c( frontIsClear c) w( move IF c( markersPresent c) i( pickMarker i) w) turnLeft move r) m)
+499,0.6319444444444445,DEF run m( WHILE c( leftIsClear c) w( IF c( frontIsClear c) i( move i) turnLeft WHILE c( frontIsClear c) w( move IF c( markersPresent c) i( pickMarker i) w) w) m)
+519,0.6666666666666666,DEF run m( WHILE c( leftIsClear c) w( turnLeft WHILE c( frontIsClear c) w( move IF c( markersPresent c) i( pickMarker i) w) w) m)
+6151,0.8888888888888892,DEF run m( WHILE c( leftIsClear c) w( WHILE c( frontIsClear c) w( move IF c( markersPresent c) i( turnLeft pickMarker move i) w) turnLeft w) m)
+7298,0.9809027777777782,DEF run m( WHILE c( leftIsClear c) w( IF c( not c( frontIsClear c) c) i( turnLeft i) move IF c( markersPresent c) i( turnLeft pickMarker move i) IF c( markersPresent c) i( pickMarker i) w) pickMarker m)
+14767,1.0000000000000002,DEF run m( turnLeft WHILE c( frontIsClear c) w( WHILE c( frontIsClear c) w( move IF c( markersPresent c) i( turnLeft pickMarker move i) IF c( markersPresent c) i( pickMarker i) w) turnLeft w) m)

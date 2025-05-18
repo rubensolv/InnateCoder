@@ -1,0 +1,10 @@
+num_evaluations,best_reward,best_program
+1,0.0625,DEF run m( IF c( frontIsClear c) i( REPEAT R=5 r( move r) i) IFELSE c( frontIsClear c) i( turnRight move i) ELSE e( move turnLeft e) m)
+20404,0.125,DEF run m( IFELSE c( noMarkersPresent c) i( move i) ELSE e( move IF c( noMarkersPresent c) i( move i) move move e) move move move move move move turnRight move move turnRight move move m)
+21704,0.1875,DEF run m( IFELSE c( noMarkersPresent c) i( move move i) ELSE e( move move e) move move move move turnRight move move turnRight move turnRight move move turnRight move move turnRight move move turnRight move move turnRight move move m)
+22407,0.25,DEF run m( IFELSE c( noMarkersPresent c) i( move move i) ELSE e( move move e) move move turnRight move move turnRight move move turnRight move move turnRight move move move turnRight move move move turnRight move move move move turnRight move move m)
+29701,0.3125,DEF run m( move move turnLeft move move turnLeft move move turnLeft move turnLeft move turnLeft move turnLeft move turnLeft move turnLeft move turnLeft move turnLeft move turnLeft move turnLeft move turnLeft move turnLeft move turnLeft move turnLeft move move turnLeft turnRight move m)
+29796,0.4375,DEF run m( REPEAT R=17 r( move move turnLeft move move turnLeft move turnLeft move turnLeft move turnLeft move r) turnLeft move move turnLeft move turnLeft move turnLeft move move turnLeft move turnLeft move move turnLeft move move turnRight move m)
+29813,0.6875,DEF run m( REPEAT R=17 r( move move turnLeft move move turnLeft move turnLeft move turnLeft move turnLeft move REPEAT R=10 r( move r) move turnLeft move r) move turnLeft move move turnLeft move move turnLeft move m)
+29826,0.9375,DEF run m( REPEAT R=17 r( move move turnLeft move move turnLeft move turnLeft move turnLeft move turnLeft move turnLeft move REPEAT R=10 r( move move turnLeft move r) move turnLeft move r) move turnLeft move m)
+30078,1.0,DEF run m( REPEAT R=10 r( move move move turnLeft move move turnLeft move REPEAT R=10 r( move move turnLeft move move turnLeft move REPEAT R=10 r( move move turnLeft move r) move move r) move turnLeft move r) move m)

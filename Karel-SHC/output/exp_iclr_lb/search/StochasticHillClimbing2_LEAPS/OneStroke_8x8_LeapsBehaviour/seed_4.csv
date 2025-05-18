@@ -1,0 +1,12 @@
+num_evaluations,best_reward,best_program
+1,0.03125000000000001,DEF run m( IFELSE c( frontIsClear c) i( move i) ELSE e( REPEAT R=4 r( move r) WHILE c( markersPresent c) w( pickMarker w) e) m)
+7,0.07986111111111112,DEF run m( IFELSE c( noMarkersPresent c) i( move REPEAT R=9 r( WHILE c( frontIsClear c) w( move w) r) i) ELSE e( WHILE c( not c( frontIsClear c) c) w( pickMarker w) e) m)
+8,0.09027777777777779,DEF run m( WHILE c( frontIsClear c) w( IFELSE c( leftIsClear c) i( move i) ELSE e( move e) w) REPEAT R=2 r( IFELSE c( leftIsClear c) i( turnLeft i) ELSE e( move e) r) m)
+14,0.17881944444444448,DEF run m( WHILE c( frontIsClear c) w( REPEAT R=10 r( move r) w) turnRight IFELSE c( leftIsClear c) i( move i) ELSE e( WHILE c( noMarkersPresent c) w( move w) e) m)
+16,0.22916666666666669,DEF run m( WHILE c( frontIsClear c) w( REPEAT R=7 r( move r) turnRight w) IFELSE c( leftIsClear c) i( putMarker turnLeft i) ELSE e( move move e) m)
+17,0.37847222222222227,DEF run m( WHILE c( frontIsClear c) w( REPEAT R=10 r( move r) turnRight w) IFELSE c( leftIsClear c) i( move putMarker i) ELSE e( move move e) m)
+23,0.7378472222222225,DEF run m( IFELSE c( frontIsClear c) i( REPEAT R=7 r( turnRight r) move i) ELSE e( move e) WHILE c( noMarkersPresent c) w( IFELSE c( leftIsClear c) i( turnLeft move i) ELSE e( move e) w) m)
+62,0.8489583333333337,DEF run m( IFELSE c( frontIsClear c) i( REPEAT R=10 r( move r) turnRight i) ELSE e( move e) WHILE c( noMarkersPresent c) w( IFELSE c( leftIsClear c) i( turnLeft i) ELSE e( move e) w) WHILE c( markersPresent c) w( move w) m)
+1371,0.8559027777777783,DEF run m( WHILE c( noMarkersPresent c) w( turnRight REPEAT R=14 r( IFELSE c( frontIsClear c) i( turnRight i) ELSE e( turnLeft e) move r) w) m)
+9504,0.8663194444444449,DEF run m( WHILE c( noMarkersPresent c) w( turnLeft move WHILE c( frontIsClear c) w( turnRight w) w) m)
+11754,0.8784722222222227,DEF run m( IFELSE c( rightIsClear c) i( pickMarker turnLeft i) ELSE e( move turnRight e) WHILE c( noMarkersPresent c) w( move turnRight w) m)

@@ -1,0 +1,12 @@
+num_evaluations,best_reward,best_program
+1,0.07118055555555555,DEF run m( WHILE c( frontIsClear c) w( move w) m)
+3,0.23090277777777785,DEF run m( WHILE c( frontIsClear c) w( move w) REPEAT R=5 r( turnLeft move move move r) m)
+33,0.24826388888888895,DEF run m( WHILE c( frontIsClear c) w( move w) REPEAT R=5 r( turnLeft move WHILE c( rightIsClear c) w( turnRight w) move r) m)
+34,0.39409722222222227,DEF run m( WHILE c( frontIsClear c) w( move w) REPEAT R=11 r( turnLeft move WHILE c( rightIsClear c) w( turnRight w) move r) m)
+70,0.7291666666666671,DEF run m( WHILE c( frontIsClear c) w( move w) REPEAT R=11 r( turnLeft WHILE c( frontIsClear c) w( move IF c( markersPresent c) i( pickMarker i) w) r) m)
+121,0.7760416666666671,DEF run m( WHILE c( frontIsClear c) w( move w) REPEAT R=15 r( turnLeft WHILE c( frontIsClear c) w( move IF c( markersPresent c) i( pickMarker i) w) r) m)
+146,0.8645833333333336,DEF run m( WHILE c( frontIsClear c) w( move w) REPEAT R=15 r( turnLeft WHILE c( frontIsClear c) w( move WHILE c( not c( leftIsClear c) c) w( putMarker turnRight w) w) r) m)
+253,0.9079861111111116,DEF run m( WHILE c( frontIsClear c) w( move w) REPEAT R=15 r( turnLeft WHILE c( frontIsClear c) w( WHILE c( rightIsClear c) w( turnRight w) move WHILE c( not c( leftIsClear c) c) w( putMarker turnRight w) w) r) m)
+3464,0.9253472222222227,DEF run m( turnRight REPEAT R=8 r( turnRight IFELSE c( frontIsClear c) i( move turnLeft i) ELSE e( turnLeft e) r) REPEAT R=18 r( turnLeft WHILE c( frontIsClear c) w( WHILE c( rightIsClear c) w( turnRight w) move w) r) m)
+3485,0.9392361111111115,DEF run m( turnRight REPEAT R=4 r( turnRight IFELSE c( frontIsClear c) i( move turnLeft i) ELSE e( turnLeft e) r) REPEAT R=18 r( turnLeft WHILE c( frontIsClear c) w( WHILE c( rightIsClear c) w( turnRight w) move w) r) m)
+11598,0.946180555555556,DEF run m( WHILE c( frontIsClear c) w( REPEAT R=6 r( turnLeft turnLeft WHILE c( frontIsClear c) w( move w) r) w) REPEAT R=17 r( turnLeft WHILE c( frontIsClear c) w( WHILE c( rightIsClear c) w( turnRight w) move w) r) m)

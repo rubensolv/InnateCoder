@@ -1,0 +1,3 @@
+num_evaluations,best_reward,best_program
+1,0.0,DEF run m( turnRight m)
+18,1.0,DEF run m( WHILE c( not c( frontIsClear c) c) w( turnLeft move turnRight move w) move pickMarker m)

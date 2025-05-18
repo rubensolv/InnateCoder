@@ -1,0 +1,38 @@
+from __future__ import annotations
+from .base_search import BaseSearch
+from .latent_cem import LatentCEM
+from .latent_cem_leaps import LatentCEM_LEAPS
+from .latent_cem_leaps_prog_init import LatentCEM_LEAPS_ProgInit
+from .latent_cem_leaps2 import LatentCEM_LEAPS2
+from .disentangled_latent_cem import DisentangledLatentCEM
+from .simulated_annealing import SimulatedAnnealing
+from .simulated_annealing_leaps import SimulatedAnnealing_LEAPS
+from .simulated_annealing_constraint import SimulatedAnnealingWithConstraint
+from .simulated_annealing_credit_assignment import SimulatedAnnealingWithCreditAssignment
+from .simulated_annealing_with_simplification import SimulatedAnnealingWithSimplification
+from .latent_simulated_annealing import LatentSimulatedAnnealing
+from .latent_simulated_annealing_random_init import LatentSimulatedAnnealingRandomInit
+from .latent_simulated_annealing_no_mutation import LatentSimulatedAnnealingNoMutation
+from .top_down import TopDownSearch
+from .random_latent import RandomLatent
+from .random_programmatic import RandomProgrammatic
+from .shc_leaps import StochasticHillClimbing2_LEAPS
+from .stochastic_hill_climbing import StochasticHillClimbing
+from .stochastic_hill_climbing2 import StochasticHillClimbing2
+from .stochastic_hill_climbing_dict import StochasticHillClimbingDict
+from .stochastic_hill_climbing_dict_with_annealing_parameter import StochasticHillClimbingDictWithAnnealingParameter
+from .stochastic_hill_climbing_LLM_dict import StochasticHillClimbingLLMDict
+from .stochastic_hill_climbing_dict_offline import StochasticHillClimbingDictOffline
+from .stochastic_hill_climbing_dict_mult_size import StochasticHillClimbingDictMultSize
+from .stochastic_hill_climbing2_cem_init import StochasticHillClimbing2_CEMInit
+from .stochastic_hill_climbing_credit_assignment import StochasticHillClimbingWithCreditAssignment
+from .stochastic_hill_climbing_with_simplification import StochasticHillClimbingWithSimplification
+
+class LatentCEM_LEAPS_Original(LatentCEM_LEAPS): pass
+class LatentCEM_LEAPS_Original2(LatentCEM_LEAPS2): pass
+class LatentCEM_LEAPS_Original_ProgInit(LatentCEM_LEAPS_ProgInit): pass
+
+def get_search_cls(search_cls_name: str) -> type[BaseSearch]:
+    search_cls = globals().get(search_cls_name)
+    assert issubclass(search_cls, BaseSearch)
+    return search_cls

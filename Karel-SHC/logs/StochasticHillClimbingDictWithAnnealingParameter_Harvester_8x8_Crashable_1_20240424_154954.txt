@@ -1,0 +1,40 @@
+2024-04-24 15:51:03,234: [StochasticHillClimbingDictWithAnnealingParameter] New best program: DEF run m( pickMarker m)
+2024-04-24 15:51:03,234: [StochasticHillClimbingDictWithAnnealingParameter] New best reward: 0.027777777777777787
+2024-04-24 15:51:03,234: [StochasticHillClimbingDictWithAnnealingParameter] Number of evaluations: 1
+2024-04-24 15:52:01,378: [StochasticHillClimbingDictWithAnnealingParameter] New best program: DEF run m( WHILE c( frontIsClear c) w( pickMarker move move move w) IF c( frontIsClear c) i( move i) m)
+2024-04-24 15:52:01,378: [StochasticHillClimbingDictWithAnnealingParameter] New best reward: 0.03298611111111112
+2024-04-24 15:52:01,379: [StochasticHillClimbingDictWithAnnealingParameter] Number of evaluations: 9
+2024-04-24 15:52:01,850: [StochasticHillClimbingDictWithAnnealingParameter] New best program: DEF run m( WHILE c( frontIsClear c) w( pickMarker WHILE c( noMarkersPresent c) w( move move pickMarker w) WHILE c( frontIsClear c) w( move move turnLeft w) w) IF c( frontIsClear c) i( move i) m)
+2024-04-24 15:52:01,850: [StochasticHillClimbingDictWithAnnealingParameter] New best reward: 0.05208333333333335
+2024-04-24 15:52:01,850: [StochasticHillClimbingDictWithAnnealingParameter] Number of evaluations: 12
+2024-04-24 15:52:03,055: [StochasticHillClimbingDictWithAnnealingParameter] New best program: DEF run m( WHILE c( frontIsClear c) w( pickMarker WHILE c( noMarkersPresent c) w( move pickMarker pickMarker w) WHILE c( frontIsClear c) w( move move turnLeft w) w) IF c( frontIsClear c) i( move i) m)
+2024-04-24 15:52:03,055: [StochasticHillClimbingDictWithAnnealingParameter] New best reward: 0.05555555555555557
+2024-04-24 15:52:03,056: [StochasticHillClimbingDictWithAnnealingParameter] Number of evaluations: 23
+2024-04-24 15:52:03,885: [StochasticHillClimbingDictWithAnnealingParameter] New best program: DEF run m( WHILE c( frontIsClear c) w( move pickMarker w) IF c( frontIsClear c) i( move i) m)
+2024-04-24 15:52:03,885: [StochasticHillClimbingDictWithAnnealingParameter] New best reward: 0.06250000000000001
+2024-04-24 15:52:03,885: [StochasticHillClimbingDictWithAnnealingParameter] Number of evaluations: 24
+2024-04-24 15:52:05,301: [StochasticHillClimbingDictWithAnnealingParameter] New best program: DEF run m( WHILE c( frontIsClear c) w( WHILE c( frontIsClear c) w( IFELSE c( leftIsClear c) i( turnLeft move move pickMarker i) ELSE e( turnRight turnLeft move move e) w) w) IF c( frontIsClear c) i( move i) m)
+2024-04-24 15:52:05,301: [StochasticHillClimbingDictWithAnnealingParameter] New best reward: 0.06770833333333333
+2024-04-24 15:52:05,301: [StochasticHillClimbingDictWithAnnealingParameter] Number of evaluations: 88
+2024-04-24 15:52:06,844: [StochasticHillClimbingDictWithAnnealingParameter] New best program: DEF run m( WHILE c( frontIsClear c) w( WHILE c( leftIsClear c) w( IFELSE c( leftIsClear c) i( turnLeft move move pickMarker i) ELSE e( turnRight turnLeft move move e) w) w) IF c( frontIsClear c) i( move i) m)
+2024-04-24 15:52:06,844: [StochasticHillClimbingDictWithAnnealingParameter] New best reward: 0.09548611111111113
+2024-04-24 15:52:06,844: [StochasticHillClimbingDictWithAnnealingParameter] Number of evaluations: 111
+2024-04-24 15:52:08,689: [StochasticHillClimbingDictWithAnnealingParameter] New best program: DEF run m( WHILE c( frontIsClear c) w( WHILE c( leftIsClear c) w( IFELSE c( leftIsClear c) i( turnLeft move turnRight pickMarker i) ELSE e( turnRight turnLeft move move e) w) w) IF c( frontIsClear c) i( move i) m)
+2024-04-24 15:52:08,689: [StochasticHillClimbingDictWithAnnealingParameter] New best reward: 0.13888888888888887
+2024-04-24 15:52:08,689: [StochasticHillClimbingDictWithAnnealingParameter] Number of evaluations: 138
+2024-04-24 15:52:15,885: [StochasticHillClimbingDictWithAnnealingParameter] New best program: DEF run m( IF c( frontIsClear c) i( IF c( frontIsClear c) i( turnLeft pickMarker i) WHILE c( leftIsClear c) w( IF c( noMarkersPresent c) i( move i) pickMarker w) i) m)
+2024-04-24 15:52:15,886: [StochasticHillClimbingDictWithAnnealingParameter] New best reward: 0.16666666666666666
+2024-04-24 15:52:15,886: [StochasticHillClimbingDictWithAnnealingParameter] Number of evaluations: 312
+2024-04-24 15:54:43,234: [StochasticHillClimbingDictWithAnnealingParameter] New best program: DEF run m( WHILE c( markersPresent c) w( turnLeft pickMarker WHILE c( not c( markersPresent c) c) w( move w) w) WHILE c( leftIsClear c) w( turnLeft w) move m)
+2024-04-24 15:54:43,234: [StochasticHillClimbingDictWithAnnealingParameter] New best reward: 0.25694444444444453
+2024-04-24 15:54:43,234: [StochasticHillClimbingDictWithAnnealingParameter] Number of evaluations: 3474
+2024-04-24 15:55:28,095: [StochasticHillClimbingDictWithAnnealingParameter] New best program: DEF run m( IF c( frontIsClear c) i( move REPEAT R=19 r( IF c( frontIsClear c) i( move i) WHILE c( frontIsClear c) w( turnRight w) pickMarker turnLeft r) move i) m)
+2024-04-24 15:55:28,095: [StochasticHillClimbingDictWithAnnealingParameter] New best reward: 0.5277777777777778
+2024-04-24 15:55:28,095: [StochasticHillClimbingDictWithAnnealingParameter] Number of evaluations: 4322
+2024-04-24 15:55:54,308: [StochasticHillClimbingDictWithAnnealingParameter] Iteration 100: Best reward 0.5277777777777778, evaluations 4763
+2024-04-24 15:56:01,301: [StochasticHillClimbingDictWithAnnealingParameter] New best program: DEF run m( WHILE c( leftIsClear c) w( REPEAT R=7 r( IFELSE c( frontIsClear c) i( turnRight i) ELSE e( pickMarker turnLeft move e) r) IF c( not c( markersPresent c) c) i( turnRight move move i) w) m)
+2024-04-24 15:56:01,301: [StochasticHillClimbingDictWithAnnealingParameter] New best reward: 0.5555555555555556
+2024-04-24 15:56:01,301: [StochasticHillClimbingDictWithAnnealingParameter] Number of evaluations: 4894
+2024-04-24 15:56:11,694: [StochasticHillClimbingDictWithAnnealingParameter] New best program: DEF run m( turnLeft WHILE c( frontIsClear c) w( move pickMarker WHILE c( not c( frontIsClear c) c) w( IF c( frontIsClear c) i( turnRight move move move i) turnRight w) w) pickMarker m)
+2024-04-24 15:56:11,695: [StochasticHillClimbingDictWithAnnealingParameter] New best reward: 0.6666666666666666
+2024-04-24 15:56:11,695: [StochasticHillClimbingDictWithAnnealingParameter] Number of evaluations: 5151

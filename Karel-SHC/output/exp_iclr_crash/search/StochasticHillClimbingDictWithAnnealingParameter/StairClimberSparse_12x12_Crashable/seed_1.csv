@@ -1,0 +1,3 @@
+num_evaluations,best_reward,best_program
+1,0.0,DEF run m( pickMarker m)
+13,1.0,DEF run m( REPEAT R=9 r( REPEAT R=16 r( turnLeft move turnRight move turnRight turnLeft r) r) m)

@@ -1,0 +1,4 @@
+num_evaluations,best_reward,best_program
+1,-1.0,DEF run m( putMarker move m)
+2,0.0,DEF run m( move m)
+103,1.0,DEF run m( REPEAT R=18 r( IF c( markersPresent c) i( putMarker i) move r) m)

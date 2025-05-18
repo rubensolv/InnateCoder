@@ -1,0 +1,3 @@
+2024-04-23 18:23:34,755: [StochasticHillClimbingDictWithAnnealingParameter] New best program: DEF run m( pickMarker m)
+2024-04-23 18:23:34,756: [StochasticHillClimbingDictWithAnnealingParameter] New best reward: 0.027777777777777787
+2024-04-23 18:23:34,756: [StochasticHillClimbingDictWithAnnealingParameter] Number of evaluations: 1

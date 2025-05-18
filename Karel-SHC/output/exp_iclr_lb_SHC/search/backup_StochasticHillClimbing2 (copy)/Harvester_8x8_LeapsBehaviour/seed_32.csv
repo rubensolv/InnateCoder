@@ -1,0 +1,11 @@
+num_evaluations,best_reward,best_program
+1,-1.0,DEF run m( WHILE c( frontIsClear c) w( IF c( frontIsClear c) i( WHILE c( markersPresent c) w( putMarker turnRight w) IFELSE c( leftIsClear c) i( move move i) ELSE e( move move e) i) w) m)
+2,0.10243055555555557,DEF run m( WHILE c( frontIsClear c) w( IF c( frontIsClear c) i( pickMarker IFELSE c( leftIsClear c) i( move move i) ELSE e( move move e) i) w) m)
+8,0.12152777777777779,DEF run m( WHILE c( frontIsClear c) w( IF c( frontIsClear c) i( pickMarker IFELSE c( leftIsClear c) i( move move i) ELSE e( move pickMarker turnRight e) i) w) m)
+18,0.5555555555555556,DEF run m( WHILE c( frontIsClear c) w( IF c( frontIsClear c) i( pickMarker IFELSE c( leftIsClear c) i( turnLeft i) ELSE e( move pickMarker turnRight e) i) w) m)
+395,0.605902777777778,DEF run m( REPEAT R=6 r( pickMarker WHILE c( noMarkersPresent c) w( IF c( frontIsClear c) i( turnLeft i) IF c( noMarkersPresent c) i( move pickMarker i) w) r) pickMarker m)
+911,0.6666666666666666,DEF run m( REPEAT R=13 r( WHILE c( frontIsClear c) w( move pickMarker w) r) move REPEAT R=16 r( move pickMarker turnRight WHILE c( frontIsClear c) w( IF c( frontIsClear c) i( pickMarker move i) w) r) m)
+1400,0.7777777777777781,DEF run m( WHILE c( leftIsClear c) w( pickMarker IF c( noMarkersPresent c) i( REPEAT R=13 r( move turnLeft turnRight move r) i) turnRight REPEAT R=15 r( move r) w) m)
+4667,0.8263888888888892,DEF run m( WHILE c( leftIsClear c) w( IF c( not c( frontIsClear c) c) i( pickMarker move i) move WHILE c( markersPresent c) w( pickMarker turnRight move move w) w) m)
+4673,0.9739583333333334,DEF run m( WHILE c( leftIsClear c) w( IF c( not c( frontIsClear c) c) i( turnRight WHILE c( rightIsClear c) w( move move turnLeft turnRight w) move turnRight i) move WHILE c( markersPresent c) w( pickMarker turnRight move move w) w) m)
+10885,1.0000000000000002,DEF run m( REPEAT R=7 r( WHILE c( not c( frontIsClear c) c) w( move w) WHILE c( markersPresent c) w( turnLeft pickMarker move move turnRight WHILE c( noMarkersPresent c) w( pickMarker move w) w) r) m)

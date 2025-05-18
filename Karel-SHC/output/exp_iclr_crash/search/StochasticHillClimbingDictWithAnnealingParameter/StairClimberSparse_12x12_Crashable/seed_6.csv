@@ -1,0 +1,3 @@
+num_evaluations,best_reward,best_program
+1,0.0,DEF run m( move m)
+9,1.0,DEF run m( REPEAT R=15 r( IF c( not c( frontIsClear c) c) i( turnLeft move turnRight move i) turnRight turnRight r) m)

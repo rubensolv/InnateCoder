@@ -1,0 +1,5 @@
+num_evaluations,best_reward,best_program
+1,0.0,DEF run m( IF c( frontIsClear c) i( move turnRight WHILE c( rightIsClear c) w( turnLeft w) i) m)
+2367654,0.4375,DEF run m( turnLeft move turnRight move m)
+2378918,0.6875,DEF run m( turnRight turnRight turnRight move turnRight move turnRight turnRight turnRight move turnRight move turnRight turnRight turnRight turnRight turnRight turnRight turnRight turnRight m)
+10000000,0.6875,DEF run m( turnRight turnRight turnRight move turnRight move turnRight turnRight turnRight move turnRight move turnRight turnRight turnRight turnRight turnRight turnRight turnRight turnRight m)

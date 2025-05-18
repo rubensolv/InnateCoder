@@ -1,0 +1,15 @@
+2024-05-03 17:30:04,220: [StochasticHillClimbingDictMultSize] New best program: DEF run m( pickMarker m)
+2024-05-03 17:30:04,220: [StochasticHillClimbingDictMultSize] New best reward: 0.027777777777777787
+2024-05-03 17:30:04,220: [StochasticHillClimbingDictMultSize] Number of evaluations: 1
+2024-05-03 17:30:04,326: [StochasticHillClimbingDictMultSize] New best program: DEF run m( WHILE c( frontIsClear c) w( pickMarker move move move w) IF c( frontIsClear c) i( move i) m)
+2024-05-03 17:30:04,326: [StochasticHillClimbingDictMultSize] New best reward: 0.03298611111111112
+2024-05-03 17:30:04,326: [StochasticHillClimbingDictMultSize] Number of evaluations: 10
+2024-05-03 17:30:04,519: [StochasticHillClimbingDictMultSize] New best program: DEF run m( WHILE c( frontIsClear c) w( pickMarker move pickMarker w) IF c( frontIsClear c) i( move i) m)
+2024-05-03 17:30:04,519: [StochasticHillClimbingDictMultSize] New best reward: 0.05555555555555557
+2024-05-03 17:30:04,519: [StochasticHillClimbingDictMultSize] Number of evaluations: 12
+2024-05-03 17:30:04,802: [StochasticHillClimbingDictMultSize] New best program: DEF run m( WHILE c( frontIsClear c) w( pickMarker move w) IF c( frontIsClear c) i( move i) m)
+2024-05-03 17:30:04,802: [StochasticHillClimbingDictMultSize] New best reward: 0.06250000000000001
+2024-05-03 17:30:04,802: [StochasticHillClimbingDictMultSize] Number of evaluations: 54
+2024-05-03 17:30:05,006: [StochasticHillClimbingDictMultSize] New best program: DEF run m( WHILE c( leftIsClear c) w( pickMarker move w) IF c( frontIsClear c) i( move i) m)
+2024-05-03 17:30:05,006: [StochasticHillClimbingDictMultSize] New best reward: 0.09027777777777779
+2024-05-03 17:30:05,006: [StochasticHillClimbingDictMultSize] Number of evaluations: 75

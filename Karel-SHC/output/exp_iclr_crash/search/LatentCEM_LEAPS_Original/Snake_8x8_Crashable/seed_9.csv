@@ -1,0 +1,13 @@
+num_evaluations,best_reward,best_program
+1,0.0,DEF run m( IFELSE c( noMarkersPresent c) i( putMarker move i) ELSE e( turnRight e) IF c( leftIsClear c) i( turnRight i) m)
+4,0.003125,DEF run m( WHILE c( frontIsClear c) w( move w) IFELSE c( markersPresent c) i( turnLeft i) ELSE e( turnLeft e) IFELSE c( frontIsClear c) i( move i) ELSE e( move e) m)
+143,0.00625,DEF run m( IF c( leftIsClear c) i( move i) turnRight WHILE c( frontIsClear c) w( move w) m)
+4675,0.009375000000000001,DEF run m( IF c( leftIsClear c) i( move i) turnRight move move IFELSE c( frontIsClear c) i( move i) ELSE e( move e) turnRight move m)
+5796,0.0125,DEF run m( turnRight move IF c( leftIsClear c) i( move i) turnRight move move IFELSE c( frontIsClear c) i( move i) ELSE e( move e) turnRight move move m)
+6157,0.015625,DEF run m( turnRight IF c( leftIsClear c) i( move i) turnRight move move IFELSE c( leftIsClear c) i( move i) ELSE e( move e) turnRight move IF c( frontIsClear c) i( move i) move move m)
+9090,0.018750000000000003,DEF run m( turnRight IF c( leftIsClear c) i( move i) turnRight move move IFELSE c( leftIsClear c) i( move i) ELSE e( move e) turnRight move move move IF c( leftIsClear c) i( move i) move turnRight move move move move m)
+9353,0.021875000000000002,DEF run m( turnRight IF c( leftIsClear c) i( move i) turnRight move move move turnRight move move move move turnRight move move move move turnRight move move move move turnRight move move move move turnRight move move move move turnRight move move move move m)
+11119,0.03125000000000001,DEF run m( turnRight IF c( leftIsClear c) i( move i) turnRight move move move turnRight move move move move turnRight move move move turnRight move move move move turnRight move move move move turnRight move move move move turnRight move move move move m)
+489084,0.034375,DEF run m( turnRight move move move move turnRight move move move turnRight move move move turnRight move move move move turnRight move move move move turnRight move move move turnRight move move move turnRight move move move move move turnRight move move m)
+5095249,0.037500000000000006,DEF run m( turnRight move turnRight move move move turnRight move REPEAT R=6 r( REPEAT R=6 r( move REPEAT R=0 r( move turnRight move turnRight move turnRight move turnRight move turnRight move turnRight move r) move turnRight move r) move turnRight move r) m)
+10000000,0.037500000000000006,DEF run m( turnRight move turnRight move move move turnRight move REPEAT R=6 r( REPEAT R=6 r( move REPEAT R=0 r( move turnRight move turnRight move turnRight move turnRight move turnRight move turnRight move r) move turnRight move r) move turnRight move r) m)

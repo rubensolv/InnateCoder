@@ -1,0 +1,10 @@
+num_evaluations,best_reward,best_program
+1,0.0,DEF run m( IFELSE c( markersPresent c) i( move turnLeft i) ELSE e( WHILE c( frontIsClear c) w( move w) e) turnLeft IFELSE c( not c( leftIsClear c) c) i( move i) ELSE e( move e) turnLeft m)
+157,0.1875,DEF run m( IFELSE c( leftIsClear c) i( turnLeft i) ELSE e( move e) IF c( frontIsClear c) i( move i) WHILE c( leftIsClear c) w( turnLeft w) move m)
+1219,0.375,DEF run m( IFELSE c( noMarkersPresent c) i( turnLeft move i) ELSE e( move e) IFELSE c( leftIsClear c) i( turnLeft turnLeft i) ELSE e( move e) turnLeft move m)
+1284,0.4375,DEF run m( IFELSE c( noMarkersPresent c) i( turnLeft move i) ELSE e( move e) IFELSE c( leftIsClear c) i( turnLeft turnLeft i) ELSE e( turnLeft e) turnLeft move m)
+10023,0.6875,DEF run m( turnLeft turnLeft turnLeft turnLeft turnLeft move turnLeft turnLeft turnLeft move turnLeft turnLeft move turnLeft turnLeft move turnLeft move turnLeft IFELSE c( noMarkersPresent c) i( turnLeft i) ELSE e( turnLeft e) turnLeft move turnLeft turnLeft move turnLeft turnLeft move turnLeft m)
+73700,0.75,DEF run m( turnLeft move turnLeft turnLeft turnLeft move turnLeft move turnRight move turnLeft move turnRight move REPEAT R=3 r( turnLeft r) move turnLeft move turnLeft turnRight move turnLeft turnRight turnLeft turnLeft turnLeft m)
+75189,0.8125,DEF run m( turnLeft move turnLeft turnLeft turnLeft move turnLeft move turnRight move turnLeft move turnRight move turnLeft move turnRight move turnLeft turnRight move turnRight move turnLeft turnRight move turnRight m)
+75201,0.9375,DEF run m( turnLeft move turnLeft turnLeft turnLeft move turnLeft move turnRight move turnLeft move turnRight move turnLeft move turnRight move turnLeft move turnRight move turnLeft turnRight move turnLeft turnRight move turnRight turnLeft move turnRight move turnRight turnLeft turnRight m)
+81174,1.0,DEF run m( turnLeft putMarker move turnLeft turnLeft turnLeft move turnLeft move turnRight move turnLeft move turnRight move turnLeft move turnRight move turnLeft move turnRight move turnLeft move turnRight move turnLeft move turnRight turnLeft move turnRight turnLeft putMarker move turnRight turnLeft turnRight m)

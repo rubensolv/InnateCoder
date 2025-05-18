@@ -1,0 +1,4 @@
+num_evaluations,best_reward,best_program
+1,0.0,DEF run m( IF c( leftIsClear c) i( IFELSE c( markersPresent c) i( WHILE c( markersPresent c) w( move move w) WHILE c( frontIsClear c) w( pickMarker move w) i) ELSE e( WHILE c( frontIsClear c) w( turnRight w) e) i) m)
+334,0.04501488095238095,DEF run m( move IFELSE c( noMarkersPresent c) i( turnLeft i) ELSE e( IF c( frontIsClear c) i( putMarker move i) e) m)
+586,1.0,DEF run m( WHILE c( leftIsClear c) w( WHILE c( noMarkersPresent c) w( turnLeft turnRight move w) IF c( leftIsClear c) i( putMarker i) move w) m)

@@ -1,0 +1,4 @@
+num_evaluations,best_reward,best_program
+1,0.0,DEF run m( pickMarker m)
+515,0.5771577380952382,DEF run m( IF c( noMarkersPresent c) i( REPEAT R=8 r( IFELSE c( noMarkersPresent c) i( move i) ELSE e( putMarker move e) r) i) m)
+519,1.0,DEF run m( IF c( noMarkersPresent c) i( REPEAT R=12 r( IFELSE c( noMarkersPresent c) i( move i) ELSE e( putMarker move e) r) i) m)
